@@ -14,3 +14,7 @@
 
 # Executable
 *.out
+
+# Backup and temperal files
+*.swp
+*~
