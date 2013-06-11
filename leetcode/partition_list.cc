@@ -25,15 +25,18 @@ class Solution {
     ListNode * cur = NULL;
     ListNode * prev = NULL;
 
+    // find the last node less than x
     cur = head;
     while (cur && cur->val < x) {
       prev = cur;
       cur = cur->next;
     }
     last_less = prev;
+    // partition the rest nodes
     while (cur) {
       if (cur->val < x) {
         prev->next = cur->next;
+        // process head
         if (!last_less) {
           cur->next = head;
           head = cur;
