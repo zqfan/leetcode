@@ -26,6 +26,9 @@ class Solution {
       // favorite right side to avoid infinite loop
       mid = (left + right + 1) / 2;
       if (x / mid == mid || left == right)
+        // NOTE(zqfan): to pass the leet code test, uncomment the next
+        //              line
+        // return mid;
         break;
       else if (mid < x / mid)
         left = mid;
