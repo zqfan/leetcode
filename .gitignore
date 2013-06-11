@@ -18,3 +18,5 @@
 # Backup and temperal files
 *.swp
 *~
+\#*
+.#*
