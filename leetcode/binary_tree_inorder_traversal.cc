@@ -77,5 +77,6 @@ int main() {
   for (int i = 0; i < r.size(); i++)
     printf("%d ", r[i]);
   printf("\n");
+  delete_binary_tree(root);
   return 0;
 }
