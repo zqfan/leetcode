@@ -41,7 +41,7 @@ class Solution {
       } else if (!cur) {
         // push a flag to indicate level end
         status.push(NULL);
-        result.push_back(vector<int>())
+        result.push_back(vector<int>());
         continue;
       }
       // cur is not NULL
