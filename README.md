@@ -2,7 +2,7 @@ leetcode
 ========
 solutiones of leetcode.com, c++ version
 
-- [-] status [84/132]
+- [-] status [85/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [ ] Surrounded Regions
@@ -18,7 +18,7 @@ solutiones of leetcode.com, c++ version
   - [ ] Triangle
   - [ ] Pascal's Triangle II
   - [ ] Pascal's Triangle
-  - [ ] Populating Next Right Pointers in Each Node II
+  - [X] Populating Next Right Pointers in Each Node II
   - [X] Populating Next Right Pointers in Each Node
   - [ ] Distinct Subsequences
   - [X] Flatten Binary Tree to Linked List
