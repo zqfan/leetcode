@@ -7,56 +7,9 @@
 #include <cstdio>
 #include <vector>
 #include <queue>
+#include "binary_tree.h"
 using std::vector;
 using std::queue;
-
-struct TreeNode {
-  int val;
-  TreeNode *left;
-  TreeNode *right;
-  TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-
-TreeNode * create_binary_tree(int s[], int n, int term=-1) {
-  TreeNode * root = NULL;
-  TreeNode * cur = NULL;
-  vector<TreeNode *> nodes;
-  int i;
-  if (s[0] == 0 || s[0] == '#')
-    return NULL;
-  root = new TreeNode(s[0]);
-  nodes.push_back(root);
-  for (i = 0; 2*i+2 < n; i++) {
-    if (s[2*i+1] == '#')
-      nodes[i]->left = NULL;
-    else
-      nodes[i]->left = new TreeNode(s[2*i + 1]);
-    nodes.push_back(nodes[i]->left);
-    if (s[2*i+2] == '#')
-      nodes[i]->right = NULL;
-    else
-      nodes[i]->right = new TreeNode(s[2*i + 2]);
-    nodes.push_back(nodes[i]->right);
-  }
-  return root;
-}
-
-void print_binary_tree_inorder(TreeNode * root) {
-  if (!root)
-    return;
-
-  print_binary_tree_inorder(root->left);
-  printf("%d ", root->val);
-  print_binary_tree_inorder(root->right);
-}
-
-void delete_binary_tree(TreeNode * root) {
-  if (!root)
-    return;
-  delete_binary_tree(root->left);
-  delete_binary_tree(root->right);
-  delete root;
-}
 
 class Solution {
   public:

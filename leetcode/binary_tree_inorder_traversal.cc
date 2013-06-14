@@ -17,30 +17,10 @@
 */
 #include <cstdio>
 #include <vector>
+#include <queue>
+#include "binary_tree.h"
 using std::vector;
-
-struct TreeNode {
-  int val;
-  TreeNode *left;
-  TreeNode *right;
-  TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-
-TreeNode * create_binary_tree() {
-  TreeNode * root = NULL;
-  root = new TreeNode(1);
-  root->right = new TreeNode(2);
-  root->right->left = new TreeNode(3);
-  return root;
-}
-
-void delete_binary_tree(TreeNode * root) {
-  if (!root)
-    return;
-  delete_binary_tree(root->left);
-  delete_binary_tree(root->right);
-  delete root;
-}
+using std::queue;
 
 class Solution {
   public:
@@ -71,7 +51,8 @@ class Solution {
 };
 
 int main() {
-  TreeNode * root = create_binary_tree();
+  int n[] = {1, '#', 2, 3};
+  TreeNode * root = create_binary_tree(n, sizeof(n)/sizeof(int), '#');
   Solution s;
   vector<int> r = s.inorderTraversal(root);
   for (int i = 0; i < r.size(); i++)
