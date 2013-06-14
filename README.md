@@ -2,7 +2,7 @@ leetcode
 ========
 solutiones of leetcode.com, c++ version
 
-- [-] status [85/132]
+- [-] status [86/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [ ] Surrounded Regions
@@ -17,7 +17,7 @@ solutiones of leetcode.com, c++ version
   - [ ] Best Time to Buy and Sell Stock
   - [ ] Triangle
   - [ ] Pascal's Triangle II
-  - [ ] Pascal's Triangle
+  - [X] Pascal's Triangle
   - [X] Populating Next Right Pointers in Each Node II
   - [X] Populating Next Right Pointers in Each Node
   - [ ] Distinct Subsequences
