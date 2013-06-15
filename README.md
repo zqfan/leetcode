@@ -2,7 +2,7 @@ leetcode
 ========
 solutiones of leetcode.com, c++ version
 
-- [-] status [91/132]
+- [-] status [92/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [ ] Surrounded Regions
@@ -11,7 +11,7 @@ solutiones of leetcode.com, c++ version
   - [ ] Word Ladder II
   - [ ] Word Ladder
   - [ ] Valid Palindrome
-  - [ ] Binary Tree Maximum Path Sum
+  - [X] Binary Tree Maximum Path Sum
   - [ ] Best Time to Buy and Sell Stock III
   - [X] Best Time to Buy and Sell Stock II
   - [X] Best Time to Buy and Sell Stock
