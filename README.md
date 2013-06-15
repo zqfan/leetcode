@@ -2,7 +2,7 @@ leetcode
 ========
 solutiones of leetcode.com, c++ version
 
-- [-] status [87/132]
+- [-] status [91/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [ ] Surrounded Regions
@@ -13,9 +13,9 @@ solutiones of leetcode.com, c++ version
   - [ ] Valid Palindrome
   - [ ] Binary Tree Maximum Path Sum
   - [ ] Best Time to Buy and Sell Stock III
-  - [ ] Best Time to Buy and Sell Stock II
-  - [ ] Best Time to Buy and Sell Stock
-  - [ ] Triangle
+  - [X] Best Time to Buy and Sell Stock II
+  - [X] Best Time to Buy and Sell Stock
+  - [X] Triangle
   - [X] Pascal's Triangle II
   - [X] Pascal's Triangle
   - [X] Populating Next Right Pointers in Each Node II
@@ -131,7 +131,7 @@ solutiones of leetcode.com, c++ version
   - [X] Reverse Integer
   - [X] ZigZag Conversion
   - [X] Longest Palindromic Substring
-  - [ ] Add Two Numbers
+  - [X] Add Two Numbers
   - [X] Longest Substring Without Repeating Characters
   - [ ] Median of Two Sorted Arrays
   - [X] Two Sum
