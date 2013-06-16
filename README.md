@@ -2,11 +2,11 @@ leetcode
 ========
 solutiones of leetcode.com, c++ version
 
-- [-] status [93/132]
+- [-] status [94/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [ ] Surrounded Regions
-  - [ ] Sum Root to Leaf Numbers
+  - [X] Sum Root to Leaf Numbers
   - [ ] Longest Consecutive Sequence
   - [ ] Word Ladder II
   - [ ] Word Ladder
