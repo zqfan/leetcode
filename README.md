@@ -17,7 +17,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-- [-] status [100/132]
+- [-] status [101/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -110,7 +110,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   - [ ] Wildcard Matching
   - [X] Multiply Strings
   - [ ] Trapping Rain Water
-  - [ ] First Missing Positive
+  - [X] First Missing Positive
   - [X] Combination Sum II
   - [X] Combination Sum
   - [X] Count and Say
