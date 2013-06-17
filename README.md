@@ -1,6 +1,6 @@
 leetcode
 ========
-solutiones of leetcode.com, c++ version
+solutions of leetcode.com, c++ version
 
 - [-] status [96/132]
   - [ ] Palindrome Partitioning II
@@ -130,7 +130,7 @@ solutiones of leetcode.com, c++ version
   - [ ] String to Integer (atoi)
   - [X] Reverse Integer
   - [X] ZigZag Conversion
-  - [X] Longest Palindromic Substring
+  - [X] Longest Palindromic Substring #TODO: O(n^2) -> O(n)
   - [X] Add Two Numbers
   - [X] Longest Substring Without Repeating Characters
   - [ ] Median of Two Sorted Arrays
