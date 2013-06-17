@@ -2,7 +2,7 @@ leetcode
 ========
 solutiones of leetcode.com, c++ version
 
-- [-] status [95/132]
+- [-] status [96/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -121,7 +121,7 @@ solutiones of leetcode.com, c++ version
   - [X] 4Sum
   - [ ] 3Sum Closest
   - [X] 3Sum
-  - [ ] Longest Common Prefix
+  - [X] Longest Common Prefix
   - [X] Roman to Integer
   - [X] Integer to Roman
   - [X] Container With Most Water
