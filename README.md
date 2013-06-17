@@ -17,7 +17,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-- [-] status [97/132]
+- [-] status [98/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -120,7 +120,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   - [X] Search for a Range
   - [X] Search in Rotated Sorted Array
   - [X] Longest Valid Parentheses
-  - [ ] Next Permutation
+  - [X] Next Permutation
   - [ ] Substring with Concatenation of All Words
   - [X] Divide Two Integers
   - [ ] Implement strStr()
