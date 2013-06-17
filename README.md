@@ -17,7 +17,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-- [-] status [98/132]
+- [-] status [99/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -112,7 +112,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   - [ ] Trapping Rain Water
   - [ ] First Missing Positive
   - [ ] Combination Sum II
-  - [ ] Combination Sum
+  - [X] Combination Sum
   - [X] Count and Say
   - [ ] Sudoku Solver
   - [X] Valid Sudoku
