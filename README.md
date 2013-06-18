@@ -17,12 +17,12 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-- [-] status [101/132]
+- [-] status [102/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
   - [X] Sum Root to Leaf Numbers
-  - [ ] Longest Consecutive Sequence
+  - [X] Longest Consecutive Sequence
   - [ ] Word Ladder II
   - [ ] Word Ladder
   - [X] Valid Palindrome
