@@ -1,8 +1,10 @@
 leetcode
 ========
-solutions of leetcode.com, c++ version
+Solutions of leetcode.com, c++ version
 
-Copyright (C) 2013  <ZhiQiang Fan>
+LICENSE
+-------
+Copyright (C) 2013 ZhiQiang Fan <aji.zqfan@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,7 +19,21 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-- [-] status [102/132]
+COPYRIGHT ANNOUNCEMENT
+----------------------
+Please note that NOT all solutions are implemented by myself, i search
+some solution on leetcode.com, and if i refactor or optimize any
+solution of my old ones, which uses other people's work, i will
+comment it out in my solution. If the original author does not want to
+grant me that permission, please contact me at aji.zqfan@gmail.com.
+
+Any solution does not contain other people's contribute is totally my
+personal work, please note the copyright and license announcement.
+
+STATUS
+------
+
+- [-] status [103/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -27,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   - [ ] Word Ladder
   - [X] Valid Palindrome
   - [X] Binary Tree Maximum Path Sum
-  - [ ] Best Time to Buy and Sell Stock III
+  - [X] Best Time to Buy and Sell Stock III
   - [X] Best Time to Buy and Sell Stock II
   - [X] Best Time to Buy and Sell Stock
   - [X] Triangle
