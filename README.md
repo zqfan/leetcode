@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [105/132]
+- [-] status [106/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -57,7 +57,7 @@ STATUS
   - [X] Path Sum
   - [X] Minimum Depth of Binary Tree
   - [X] Balanced Binary Tree
-  - [ ] Convert Sorted List to Binary Search Tree
+  - [X] Convert Sorted List to Binary Search Tree
   - [X] Convert Sorted Array to Binary Search Tree
   - [X] Binary Tree Level Order Traversal II
   - [ ] Construct Binary Tree from Inorder and Postorder Traversal
