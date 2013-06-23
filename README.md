@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [106/132]
+- [-] status [107/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -61,7 +61,7 @@ STATUS
   - [X] Convert Sorted Array to Binary Search Tree
   - [X] Binary Tree Level Order Traversal II
   - [ ] Construct Binary Tree from Inorder and Postorder Traversal
-  - [ ] Construct Binary Tree from Preorder and Inorder Traversal
+  - [X] Construct Binary Tree from Preorder and Inorder Traversal
   - [X] Maximum Depth of Binary Tree
   - [X] Binary Tree Zigzag Level Order Traversal
   - [X] Binary Tree Level Order Traversal
