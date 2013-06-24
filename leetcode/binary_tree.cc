@@ -1,3 +1,19 @@
+/*
+Copyright 2013 ZhiQiang Fan <aji.zqfan@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 #include "binary_tree.h"
 #include <cstdio>
 #include <queue>
@@ -34,6 +50,14 @@ void print_binary_tree_inorder(TreeNode * root) {
   print_binary_tree_inorder(root->left);
   printf("%d ", root->val);
   print_binary_tree_inorder(root->right);
+}
+
+void print_binary_tree_preorder(TreeNode * root) {
+  if (!root)
+    return;
+  printf("%d ", root->val);
+  print_binary_tree_preorder(root->left);
+  print_binary_tree_preorder(root->right);
 }
 
 void delete_binary_tree(TreeNode * root) {
