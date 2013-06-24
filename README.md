@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [108/132]
+- [-] status [109/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -67,7 +67,7 @@ STATUS
   - [X] Binary Tree Level Order Traversal
   - [X] Symmetric Tree
   - [X] Same Tree
-  - [ ] Recover Binary Search Tree
+  - [X] Recover Binary Search Tree
   - [X] Validate Binary Search Tree
   - [ ] Interleaving String
   - [ ] Unique Binary Search Trees II
