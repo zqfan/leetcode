@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [111/132]
+- [-] status [112/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -125,7 +125,7 @@ STATUS
   - [X] Jump Game II
   - [ ] Wildcard Matching
   - [X] Multiply Strings
-  - [ ] Trapping Rain Water
+  - [X] Trapping Rain Water
   - [X] First Missing Positive
   - [X] Combination Sum II
   - [X] Combination Sum
