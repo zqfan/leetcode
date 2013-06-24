@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [109/132]
+- [-] status [111/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -70,14 +70,14 @@ STATUS
   - [X] Recover Binary Search Tree
   - [X] Validate Binary Search Tree
   - [ ] Interleaving String
-  - [ ] Unique Binary Search Trees II
+  - [X] Unique Binary Search Trees II
   - [X] Unique Binary Search Trees
   - [X] Binary Tree Inorder Traversal
   - [X] Restore IP Addresses
   - [X] Reverse Linked List II
   - [X] Subsets II
   - [X] Decode Ways
-  - [ ] Gray Code
+  - [X] Gray Code
   - [X] Merge Sorted Array
   - [ ] Scramble String
   - [X] Partition List
