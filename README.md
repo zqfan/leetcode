@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [112/132]
+- [-] status [113/132]
   - [ ] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -51,7 +51,7 @@ STATUS
   - [X] Pascal's Triangle
   - [X] Populating Next Right Pointers in Each Node II
   - [X] Populating Next Right Pointers in Each Node
-  - [ ] Distinct Subsequences
+  - [X] Distinct Subsequences
   - [X] Flatten Binary Tree to Linked List
   - [X] Path Sum II
   - [X] Path Sum
