@@ -33,8 +33,8 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [113/132]
-  - [ ] Palindrome Partitioning II
+- [-] status [114/132]
+  - [X] Palindrome Partitioning II
   - [ ] Palindrome Partitioning
   - [X] Surrounded Regions
   - [X] Sum Root to Leaf Numbers

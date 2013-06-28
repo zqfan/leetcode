@@ -8,60 +8,42 @@
    produced using 1 cut.
 */
 #include <cstdio>
+#include <cstring>
 #include <string>
-#include <vector>
-#include <queue>
 using std::string;
-using std::vector;
-using std::queue;
 
 class Solution {
   public:
-  // check a string is palindrome or not
-  bool _is_palindrome(const string &s, int i, int j) {
-    for (; i < j; i++, j--)
-      if (s[i] != s[j])
-        return false;
-    return true;
-  }
-
+  // NOTE(zqfan): i read solution of wanyya@leetcode,
+  // url:discuss.leetcode.com/questions/1266/palindrome-partitioning-ii
+  // my origin solution is time limit exceed because it is O(N^3)
   int minCut(string s) {
-    if (s.size() == 0 || _is_palindrome(s, 0, s.size()-1))
-      return 0;
-    int i, j;
-    vector<vector<bool> > p(s.size(), vector<bool>(s.size(), false));
-    // make cache for substr palindrome check
-    for (i = 0; i < s.size(); i++) {
-      for (j = i; j < s.size(); j++) {
-        p[i][j] = _is_palindrome(s, i, j);
+    int len = s.size();
+    // min[i] means min cut of s[i,end)
+    // min[len] will be -1 since no such cut and avoid corner case
+    // min[j+1]+1
+    // NOTE(zqfan): the dynamic array is only supported in C99
+    int min[len+1];
+    for (int i = 0; i <= len; i++)
+      min[i] = len-i-1;  // all part to single characters
+    // p[i][j] means s[i,j] is palindrome string
+    bool p[len][len];
+    memset(p, 0, sizeof(p));
+    for (int i = len-1; i >=0 ; i--) {
+      for (int j = i; j < len; j++) {
+        // s[i,j] is palindrome
+        if (s[i] == s[j] && (j-i < 2 || p[i+1][j-1])) {
+          p[i][j] = true;
+          // 1. s[i,j] is palindrome and need one more cut besides
+          // min[j+1], which stores min cut of s[j+1,end)
+          // 2. if s[i,j] is not palindrome, for first palindrome of
+          // s[i,j] end at k, then one candidate is min[k+1]+1
+          // since k < j, it has already been compared before
+          min[i] = std::min(min[i], min[j+1]+1);
+        }
       }
     }
-    // cut[i][j] means min cut for s[i..j]
-    vector<vector<int> > cut(s.size(), vector<int>(s.size(), 0));
-    for (i = 1; i < s.size(); i++) {
-      for (j = 0; j < s.size() - i; j++) {
-        // is already palindrome
-        // NOTE, if there is memory limit, you can drop the cache p
-        // and directly call _is_palindrome(s, j, j+i), but time will
-        // increase by n
-        if (p[j][j+i]) {
-          cut[j][j+i] = 0;
-          continue;
-        }
-        // cut from some pos between j and j+i, the new cut is
-        // left + 1 + right
-        int min = i;
-        for (int k = j; k < j+i; k++) {
-          int _min = cut[j][k] + cut[k+1][j+i] + 1;
-          if (_min < min)
-            min = _min;
-          if (min == 1)
-            break;
-        }
-        cut[j][j+i] = min;
-      }
-    }
-    return cut[0][s.size()-1];
+    return min[0];
   }
 };
 
