@@ -33,9 +33,9 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [114/132]
+- [-] status [115/132]
   - [X] Palindrome Partitioning II
-  - [ ] Palindrome Partitioning
+  - [X] Palindrome Partitioning
   - [X] Surrounded Regions
   - [X] Sum Root to Leaf Numbers
   - [X] Longest Consecutive Sequence
