@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [119/132]
+- [-] status [120/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -87,7 +87,7 @@ STATUS
   - [X] Remove Duplicates from Sorted List
   - [X] Search in Rotated Sorted Array II
   - [X] Remove Duplicates from Sorted Array II
-  - [ ] Word Search
+  - [X] Word Search
   - [X] Subsets
   - [X] Combinations
   - [ ] Minimum Window Substring
