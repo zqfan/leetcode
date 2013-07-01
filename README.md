@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [120/132]
+- [-] status [121/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -90,7 +90,7 @@ STATUS
   - [X] Word Search
   - [X] Subsets
   - [X] Combinations
-  - [ ] Minimum Window Substring
+  - [X] Minimum Window Substring
   - [X] Sort Colors
   - [X] Search a 2D Matrix
   - [X] Set Matrix Zeroes
