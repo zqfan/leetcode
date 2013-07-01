@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [118/132]
+- [-] status [119/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -79,7 +79,7 @@ STATUS
   - [X] Decode Ways
   - [X] Gray Code
   - [X] Merge Sorted Array
-  - [ ] Scramble String
+  - [X] Scramble String
   - [X] Partition List
   - [X] Maximal Rectangle
   - [X] Largest Rectangle in Histogram
