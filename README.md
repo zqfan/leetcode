@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [117/132]
+- [-] status [118/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -81,7 +81,7 @@ STATUS
   - [X] Merge Sorted Array
   - [ ] Scramble String
   - [X] Partition List
-  - [ ] Maximal Rectangle
+  - [X] Maximal Rectangle
   - [X] Largest Rectangle in Histogram
   - [X] Remove Duplicates from Sorted List II
   - [X] Remove Duplicates from Sorted List
