@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [121/132]
+- [-] status [122/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -130,7 +130,7 @@ STATUS
   - [X] Combination Sum II
   - [X] Combination Sum
   - [X] Count and Say
-  - [ ] Sudoku Solver
+  - [X] Sudoku Solver
   - [X] Valid Sudoku
   - [X] Search Insert Position
   - [X] Search for a Range
