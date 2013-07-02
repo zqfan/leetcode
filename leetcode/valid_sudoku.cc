@@ -1,81 +1,60 @@
-/* Copyright 2013 <ZhiQiang Fan>
+/*
+Copyright (C) 2013 ZhiQiang Fan <aji.zqfan@gmail.com>
 
-   Determine if a Sudoku is valid, according to:
-   Sudoku Puzzles - The Rules.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-   The Sudoku board could be partially filled, where empty cells are
-   filled with the character '.'.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Determine if a Sudoku is valid, according to:
+Sudoku Puzzles - The Rules.
+
+The Sudoku board could be partially filled, where empty cells are
+filled with the character '.'.
 */
 #include <cstdio>
+#include <cstring>  // memset
+#include <string>
 #include <vector>
 using std::vector;
+using std::string;
 
 class Solution {
   public:
   bool isValidSudoku(const vector<vector<char> > &board) {
-    vector<int> flag(10, 0);
-    int i, j, k, l, m;
-
-    // check each row
-    for (i = 0; i < board.size(); i++) {
-      for (m = 0; m < flag.size(); m++)  // clear flag vector
-        flag[m] = 0;
-      for (j = 0; j < board[i].size(); j++) {
+    bool r[9][9];  // numbers on each row
+    bool c[9][9];  // numbers on each col
+    bool g[3][3][9];  // numbers on each sub 9-grid
+    memset(r, 0, sizeof(r));
+    memset(c, 0, sizeof(c));
+    memset(g, 0, sizeof(g));
+    for (int i = 0; i < 9; i++) {
+      for (int j = 0; j < 9; j++) {
         if (board[i][j] != '.') {
-          flag[board[i][j] - '0']++;
-        }
-      }
-      for (m = 0; m < flag.size(); m++)  // check flag vector
-        if (flag[m] > 1)
-          return false;
-    }  // end for i
-    // check each col
-    for (j = 0; j < board[0].size(); j++) {
-      for (m = 0; m < flag.size(); m++)  // clear flag vector
-        flag[m] = 0;
-      for (i = 0; i < board.size(); i++) {
-        if (board[i][j] != '.') {
-          flag[board[i][j] - '0']++;
-        }
-      }
-      for (m = 0; m < flag.size(); m++)  // check flag vector
-        if (flag[m] > 1)
-          return false;
-    }  // end for i
-    // check each sub block
-    for (i = 0; i < board.size(); i += 3) {
-      for (j = 0; j < board[0].size(); j += 3) {
-        for (m = 0; m < flag.size(); m++)  // clear flag vector
-          flag[m] = 0;
-        for (k = i; k < i + 3; k++) {
-          for (l = j; l < j + 3; l++) {
-            if (board[k][l] != '.')
-              flag[board[k][l] - '0']++;
-          }
-        }
-        for (m = 0; m < flag.size(); m++)  // check flag vector
-          if (flag[m] > 1)
+          int n = board[i][j] - '1';
+          if (r[i][n] || c[j][n] || g[i/3][j/3][n])
             return false;
-      }  // end for j
-    }  // end for i
+          r[i][n] = c[j][n] = g[i/3][j/3][n] = true;
+        }
+      }
+    }
     return true;
   }
 };
 
 int main() {
-  int a[3][3] = {{'1', '2', '3'},
-                 {'4', '5', '6'},
-                 {'7', '8', '9'}};
-  vector<char> b1;
-  b1.push_back('1'); b1.push_back('.'); b1.push_back('.');
-  vector<char> b2;
-  b2.push_back('4'); b2.push_back('5'); b2.push_back('6');
-  vector<char> b3;
-  b3.push_back('7'); b3.push_back('.'); b3.push_back('1');
+  string str[] = {"1..", "456", "7.1"};
   vector<vector<char> > board;
-  board.push_back(b1);
-  board.push_back(b2);
-  board.push_back(b3);
+  for (int i = 0; i < 3; i++)
+    board.push_back(vector<char>(str[i].begin(), str[i].end()));
   Solution sol;
   printf("%d\n", sol.isValidSudoku(board));
   return 0;
