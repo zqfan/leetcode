@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [122/132]
+- [-] status [123/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -137,7 +137,7 @@ STATUS
   - [X] Search in Rotated Sorted Array
   - [X] Longest Valid Parentheses
   - [X] Next Permutation
-  - [ ] Substring with Concatenation of All Words
+  - [X] Substring with Concatenation of All Words
   - [X] Divide Two Integers
   - [ ] Implement strStr()
   - [X] Remove Element
