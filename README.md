@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [123/132]
+- [-] status [124/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -94,7 +94,7 @@ STATUS
   - [X] Sort Colors
   - [X] Search a 2D Matrix
   - [X] Set Matrix Zeroes
-  - [ ] Edit Distance
+  - [X] Edit Distance
   - [X] Simplify Path
   - [X] Climbing Stairs
   - [X] Sqrt(x)
