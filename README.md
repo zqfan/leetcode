@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [129/132]
+- [-] status [130/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -156,7 +156,7 @@ STATUS
   - [X] Roman to Integer
   - [X] Integer to Roman
   - [X] Container With Most Water
-  - [ ] Regular Expression Matching
+  - [X] Regular Expression Matching
   - [X] Palindrome Number
   - [X] String to Integer (atoi)
   - [X] Reverse Integer
