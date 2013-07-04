@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [126/132]
+- [-] status [127/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -158,7 +158,7 @@ STATUS
   - [X] Container With Most Water
   - [ ] Regular Expression Matching
   - [X] Palindrome Number
-  - [ ] String to Integer (atoi)
+  - [X] String to Integer (atoi)
   - [X] Reverse Integer
   - [X] ZigZag Conversion
   - [X] Longest Palindromic Substring #TODO: O(n^2) -> O(n)
