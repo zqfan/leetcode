@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [124/132]
+- [-] status [125/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -98,7 +98,7 @@ STATUS
   - [X] Simplify Path
   - [X] Climbing Stairs
   - [X] Sqrt(x)
-  - [ ] Text Justification
+  - [X] Text Justification
   - [X] Plus One
   - [ ] Valid Number
   - [X] Add Binary
