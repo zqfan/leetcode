@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [127/132]
+- [-] status [128/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -100,7 +100,7 @@ STATUS
   - [X] Sqrt(x)
   - [X] Text Justification
   - [X] Plus One
-  - [ ] Valid Number
+  - [X] Valid Number
   - [X] Add Binary
   - [X] Merge Two Sorted Lists
   - [X] Minimum Path Sum
