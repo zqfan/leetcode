@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [130/132]
+- [-] status [131/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -115,7 +115,7 @@ STATUS
   - [X] Jump Game
   - [X] Spiral Matrix
   - [X] Maximum Subarray
-  - [ ] N-Queens II
+  - [X] N-Queens II
   - [X] N-Queens
   - [X] Pow(x, n)
   - [X] Anagrams
