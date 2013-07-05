@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [-] status [131/132]
+- [X] status [132/132]
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
@@ -164,5 +164,5 @@ STATUS
   - [X] Longest Palindromic Substring #TODO: O(n^2) -> O(n)
   - [X] Add Two Numbers
   - [X] Longest Substring Without Repeating Characters
-  - [ ] Median of Two Sorted Arrays
+  - [X] Median of Two Sorted Arrays
   - [X] Two Sum
