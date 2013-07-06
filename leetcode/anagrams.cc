@@ -1,56 +1,52 @@
-/* Copyright @013 <ZhiQiang Fan>
+/* Copyright (C) 2013 ZhiQiang Fan <aji.zqfan@gmail.com>
 
-   Given an array of strings, return all groups of strings that are
-   anagrams.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-   Note: All inputs will be in lower-case.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+/* Given an array of strings, return all groups of strings that are
+anagrams.
+Note: All inputs will be in lower-case. */
 #include <cstdio>
 #include <vector>
 #include <algorithm>
 #include <string>
+#include <unordered_map>  // g++ -std=c++0x
 using std::string;
 using std::vector;
-using std::sort;
 
 class Solution {
   public:
-  bool static cmp_sorted_str(string s1, string s2) {
-    sort(s1.begin(), s1.end());
-    sort(s2.begin(), s2.end());
-    return s1.compare(s2) <= 0;
-  }
-
-  vector<string> anagrams(const vector<string> &strs) {
-    vector<string> t = strs, r;
-    string s1, s2;
-    int i, j;
-
-    if (strs.size() < 2)
-      return r;
-
-    sort(t.begin(), t.end(), this->cmp_sorted_str);
-
-    for (i = 0; i + 1 < t.size(); i++) {
-      s1 = t[i];
-      sort(s1.begin(), s1.end());
-      j = i + 1;
-      while (j < t.size()) {
-        s2 = t[j];
-        sort(s2.begin(), s2.end());
-        if (s1.compare(s2) == 0)
-          r.push_back(t[j]);
-        else
-          break;
-        j++;
-      }
-      if (j != i + 1) {
-        r.push_back(t[i]);
-        i = j - 1;
+  vector<string> anagrams(vector<string> & strs) {
+    // using hash to accelerate
+    // Accepted: 176ms
+    vector<string> ret;
+    // int stores the position of first string added to hash
+    std::unordered_map<string, int> hash;
+    for (int i = 0; i < strs.size(); i++) {
+      string s = strs[i];
+      std::sort(s.begin(), s.end());
+      if (hash.count(s)) {  // is anagram
+        // the first string not add to result yet
+        if (hash[s] != -1) {
+          ret.push_back(strs[hash[s]]);
+          hash[s] = -1;  // mark it
+        }
+        ret.push_back(strs[i]);  // add current anagram
+      } else {
+        hash[s] = i;  // insert it
       }
     }
-
-    return r;
+    return ret;
   }
 };
 
