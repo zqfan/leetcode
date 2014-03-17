@@ -1,6 +1,6 @@
 leetcode
 ========
-Solutions of leetcode.com, c++ version
+Solutions of leetcode.com
 
 LICENSE
 -------
