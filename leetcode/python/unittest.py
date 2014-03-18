@@ -4,6 +4,7 @@ import argparse
 import importlib
 import inspect
 import json
+import os
 import sys
 
 def run_unittest(problem):
@@ -18,8 +19,9 @@ def run_unittest(problem):
     func = pub_funcs[0][1]
 
     # load all the test data
-    test_data = _load_data('tests/data/%s.test' % problem)
-    expected_result = _load_data('tests/data/%s.result' % problem)
+    testdir = _get_test_dir()
+    test_data = _load_data(testdir + '/%s.test' % problem)
+    expected_result = _load_data(testdir + '/%s.result' % problem)
 
     # run each test data
     fail = 0
@@ -31,6 +33,11 @@ def run_unittest(problem):
             fail += 1
 
     print 'Success!' if not fail else '%d failed' % fail
+
+def _get_test_dir():
+    dirpath = os.path.dirname(os.path.realpath(__file__))
+    pardir = os.path.join(dirpath, os.path.pardir)
+    return os.path.abspath(os.path.join(pardir, 'tests'))
 
 def _load_data(filename):
     with open(filename) as f:
