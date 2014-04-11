@@ -24,6 +24,23 @@ class Solution:
     # @param head, a RandomListNode
     # @return a RandomListNode
     def copyRandomList(self, head):
+        # generate nodes list
+        def get_nodes(cur):
+            while cur:
+                yield cur
+                cur = cur.next
+        # use a huge dict to store (old, new) node pairs
+        pairs = dict((node, RandomListNode(node.label))
+                     for node in get_nodes(head))
+        # copy linked list
+        for node in get_nodes(head):
+            pairs[node].next = pairs.get(node.next)
+        # copy random pointer
+        for node in get_nodes(head):
+            pairs[node].random = pairs.get(node.random)
+        return pairs.get(head)
+
+    def copy_random_list_v1(self, head):
         if head is None: return
         # use a huge dict to store (old, new) node pairs
         pairs = {None: None, head: RandomListNode(head.label)}
