@@ -21,6 +21,9 @@ class Solution {
     if (x < 0)
       return -1;
 
+    if (x == 0)
+      return 0;
+
     // find the max number which less or equal to sqrt(x)
     while (left <= right) {
       // favorite right side to avoid infinite loop
