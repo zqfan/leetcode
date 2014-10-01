@@ -1,4 +1,5 @@
-#! /usrbin/env python
+#! /usr/bin/env python
+
 # Copyright (C) 2014 ZhiQiang Fan <aji.zqfan@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -14,8 +15,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-# https://oj.leetcode.com/problems/linked-list-cycle/
-# Given a linked list, determine if it has a cycle in it.
+# https://oj.leetcode.com/problems/linked-list-cycle-ii/
+# Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
 # Follow up:
 # Can you solve it without using extra space?
 
@@ -27,13 +28,24 @@
 
 class Solution:
     # @param head, a ListNode
-    # @return a boolean
-    def hasCycle(self, head):
-        slow = head
-        fast = head
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-            if slow == fast:
-                return True
-        return False
+    # @return a list node\
+    def detectCycle(self, head):
+        """
+        See: http://en.wikipedia.org/wiki/Floyd%27s_cycle-finding_algorithm#Tortoise_and_hare
+        """
+        tortoise = head
+        hare = head
+        while hare and hare.next:
+            tortoise = tortoise.next
+            hare = hare.next.next
+            if tortoise == hare:
+                break
+        else:
+            return
+
+        tortoise = head
+        while tortoise != hare:
+            tortoise = tortoise.next
+            hare = hare.next
+
+        return tortoise
