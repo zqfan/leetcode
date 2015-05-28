@@ -33,7 +33,7 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [X] status [132/202]
+- [ ] status [132/202]
   - [ ] 218 The Skyline Problem
   - [X] 217 Contains Duplicate
   - [ ] 216 Combination Sum III
@@ -46,7 +46,7 @@ STATUS
   - [ ] 209 Minimum Size Subarray Sum
   - [ ] 208 Implement Trie (Prefix Tree)
   - [ ] 207 Course Schedule
-  - [ ] 206 Reverse Linked List
+  - [X] 206 Reverse Linked List
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
