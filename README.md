@@ -4,7 +4,7 @@ Solutions of leetcode.com
 
 LICENSE
 -------
-Copyright (C) 2013 ZhiQiang Fan <aji.zqfan@gmail.com>
+Copyright (C) 2013-2015 ZhiQiang Fan <aji.zqfan@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -33,7 +33,20 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [X] status [132/132]
+- [X] status [132/202]
+  - [ ] 218 The Skyline Problem
+  - [X] 217 Contains Duplicate
+  - [ ] 216 Combination Sum III
+  - [ ] 215 Kth Largest Element in an Array
+  - [ ] 214 Shortest Palindrome
+  - [ ] 213 House Robber II
+  - [ ] 212 Word Search II
+  - [ ] 211 Add and Search Word - Data structure design
+  - [ ] 210 Course Schedule II
+  - [ ] 209 Minimum Size Subarray Sum
+  - [ ] 208 Implement Trie (Prefix Tree)
+  - [ ] 207 Course Schedule
+  - [ ] 206 Reverse Linked List
   - [X] Palindrome Partitioning II
   - [X] Palindrome Partitioning
   - [X] Surrounded Regions
