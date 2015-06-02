@@ -33,7 +33,9 @@ personal work, please note the copyright and license announcement.
 STATUS
 ------
 
-- [ ] status [132/202]
+- [ ] status [132/204]
+  - [ ] 220 Contains Duplicate III
+  - [X] 219 Contains Duplicate II
   - [ ] 218 The Skyline Problem
   - [X] 217 Contains Duplicate
   - [ ] 216 Combination Sum III
