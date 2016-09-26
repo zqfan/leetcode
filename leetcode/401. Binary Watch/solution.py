@@ -18,10 +18,10 @@ class Solution(object):
             return
         if i >= len(choices):
             return
-        self.find_solutions(num, minutes, choices[:], i+1)
+        self.find_solutions(num, minutes, choices[:], i + 1)
         minute = choices[i]
         choices[i] = 0
-        self.find_solutions(num - 1, minutes + minute, choices, i+1)
+        self.find_solutions(num - 1, minutes + minute, choices, i + 1)
 
     def convert_solutions(self):
         strtimes = []
