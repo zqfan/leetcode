@@ -5,27 +5,17 @@ class Solution(object):
         :type k: int
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-        if (not nums) or (k % len(nums)) == 0:
+        if not nums:
             return
 
-        def swap(start):
+        def swap(p1, p2):
             for i in range(k):
-                nums[start+i], nums[l-k+i] = nums[l-k+i], nums[start+i]
+                nums[p1+i], nums[p2+i] = nums[p2+i], nums[p1+i]
 
         l = len(nums)
-        start = 0
+        p1 = 0
         k = k % l
-        while start < l and k != 0:
-            k = k % (l - start)
-            swap(start)
-            start += k
-
-    def rotate1(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: void Do not return anything, modify nums in-place instead.
-        """
-        l = len(nums)
-        k = k % l
-        nums[:] = nums[l-k:] + nums[:l-k]
+        while p1 < l and k != 0:
+            k = k % (l - p1)
+            swap(p1, l - k)
+            p1 += k
