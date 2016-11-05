@@ -30,6 +30,18 @@ grant me that permission, please contact me at aji.zqfan@gmail.com.
 Any solution does not contain other people's contribute is totally my
 personal work, please note the copyright and license announcement.
 
-Good problems:
+NOTE
+----
+
+* If a problem has multiple solutions, the worst solution will have the biggest postfix number.
+
+GOOD PROBLEMS
+-------------
 
 * 189. Rotate Array
+
+TODO
+----
+
+* resolve all problems, current 200/417
+* project d (10%)
