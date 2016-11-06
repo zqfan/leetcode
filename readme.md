@@ -2,6 +2,19 @@ leetcode
 ========
 Solutions of leetcode.com
 
+* If a problem has multiple solutions, the worst solution will have the biggest postfix number.
+
+GOOD PROBLEMS
+-------------
+
+* 189. Rotate Array
+* 347. Top K Frequent Elements
+
+TODO
+----
+
+* resolve all problems, current 200/417
+
 LICENSE
 -------
 Copyright (C) 2013-2015 ZhiQiang Fan <aji.zqfan@gmail.com>
@@ -29,19 +42,3 @@ grant me that permission, please contact me at aji.zqfan@gmail.com.
 
 Any solution does not contain other people's contribute is totally my
 personal work, please note the copyright and license announcement.
-
-NOTE
-----
-
-* If a problem has multiple solutions, the worst solution will have the biggest postfix number.
-
-GOOD PROBLEMS
--------------
-
-* 189. Rotate Array
-
-TODO
-----
-
-* resolve all problems, current 200/417
-* project d (10%)
