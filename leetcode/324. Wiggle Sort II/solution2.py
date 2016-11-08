@@ -6,15 +6,8 @@ class Solution(object):
         """
         tmp = nums[:]
         self.qsort(tmp, 0, len(nums))
-        i = (len(nums) - 1) / 2
-        j = len(nums) - 1
-        for k in range(len(nums)):
-            if k & 1:
-                nums[k] = tmp[j]
-                j -= 1
-            else:
-                nums[k] = tmp[i]
-                i -= 1
+        for i in range(1, len(nums), 2) + range(0, len(nums), 2):
+            nums[i] = tmp.pop()
 
     @staticmethod
     def qsort(arr, start, stop):
