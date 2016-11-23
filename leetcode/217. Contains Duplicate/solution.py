@@ -21,9 +21,9 @@ class Solution:
     # @param {integer[]} nums
     # @return {boolean}
     def containsDuplicate(self, nums):
-        uniq = {}
+        exist = set()
         for num in nums:
-            if num in uniq:
+            if num in exist:
                 return True
-            uniq[num] = 1
+            exist.add(num)
         return False
