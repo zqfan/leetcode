@@ -11,9 +11,6 @@ class Solution(object):
         :type H: int
         :rtype: int
         """
-        def compute_rect_area(A, B, C, D):
-            return (C - A) * (D - B)
-
         area_p = (C - A) * (D - B)
         area_q = (G - E) * (H - F)
 
