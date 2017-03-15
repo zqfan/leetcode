@@ -9,6 +9,7 @@ GOOD PROBLEMS
 
 * 189. Rotate Array
 * 347. Top K Frequent Elements
+* 363. Max Sum of Rectangle No Larger Than K
 
 TODO
 ----
