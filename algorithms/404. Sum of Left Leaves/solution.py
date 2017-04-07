@@ -13,14 +13,7 @@ class Solution(object):
         """
         if not root:
             return 0
-        # leaf node alreay checked in parent call
-        if not (root.left or root.right):
-            return 0
-        if not root.left:
-            left_sum = 0
-        elif not (root.left.left or root.left.right):
-            left_sum = root.left.val
+        elif root.left and root.left.left == root.left.right == None:
+            return root.left.val + self.sumOfLeftLeaves(root.right)
         else:
-            left_sum = self.sumOfLeftLeaves(root.left)
-        right_sum = self.sumOfLeftLeaves(root.right)
-        return left_sum + right_sum
+            return self.sumOfLeftLeaves(root.left) + self.sumOfLeftLeaves(root.right)
