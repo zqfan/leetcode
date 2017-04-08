@@ -13,17 +13,15 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-# Given an array of integers, find if the array contains any duplicates.
-# Your function should return true if any value appears at least twice
-# in the array, and it should return false if every element is distinct.
 
-class Solution:
-    # @param {integer[]} nums
-    # @return {boolean}
+class Solution(object):
     def containsDuplicate(self, nums):
-        exist = set()
-        for num in nums:
-            if num in exist:
-                return True
-            exist.add(num)
-        return False
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        return len(set(nums)) != len(nums)
+
+# 18 / 18 test cases passed.
+# Status: Accepted
+# Runtime: 52 ms

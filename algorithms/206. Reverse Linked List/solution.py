@@ -10,10 +10,15 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        pre, cur, next = None, head, None
+        pre = None
+        cur = head
         while cur:
-            next = cur.next
+            t = cur.next
             cur.next = pre
             pre = cur
-            cur = next
-        return pre if head else None
+            cur = t
+        return pre
+
+# 27 / 27 test cases passed.
+# Status: Accepted
+# Runtime: 49 ms

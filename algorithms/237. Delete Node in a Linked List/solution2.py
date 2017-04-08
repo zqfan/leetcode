@@ -10,9 +10,9 @@ class Solution(object):
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
-        node.val = node.next.val
-        node.next = node.next.next
-
-# 83 / 83 test cases passed.
-# Status: Accepted
-# Runtime: 62 ms
+        while node.next:
+            node.val = node.next.val
+            tail = node
+            node = node.next
+        # node will not be tail, so it is safe here
+        tail.next = None

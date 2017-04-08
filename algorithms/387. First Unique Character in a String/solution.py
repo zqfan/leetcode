@@ -4,26 +4,11 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        # chr_map = {chr: [last_index, count]}
-        chr_map = {}
-        for i, c in enumerate(s):
-            if c not in chr_map:
-                chr_map[c] = [i, 1]
-            else:
-                chr_map[c][0] = i
-                chr_map[c][1] += 1
-        min_index = -1
-        for c in chr_map:
-            if chr_map[c][1] > 1:
-                continue
-            if min_index == -1:
-                min_index = chr_map[c][0]
-            min_index = min(chr_map[c][0], min_index)
-        return min_index
+        letters = [chr(ord('a') + i) for i in xrange(26)]
+        # Remember that collections.Counter is 100 times slower than s.count
+        positions = [s.find(c) for c in letters if s.count(c) == 1]
+        return min(positions) if positions else -1
 
-# test
-s = Solution().firstUniqChar
-assert 0 == s("leetcode")
-assert 2 == s("loveleetcode")
-assert -1 == s("")
-assert -1 == s("aabbccdd")
+# 104 / 104 test cases passed.
+# Status: Accepted
+# Runtime: 85 ms

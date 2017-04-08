@@ -17,3 +17,8 @@ class Solution(object):
                 boomerangs += (c - 1) * c
             dis_count.clear()
         return boomerangs
+
+# 31 / 31 test cases passed.
+# Status: Accepted
+# Runtime: 1139 ms
+# 81.07%

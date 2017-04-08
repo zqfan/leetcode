@@ -14,34 +14,14 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-/* Say you have an array for which the ith element is the price of a
-given stock on day i.
-Design an algorithm to find the maximum profit. You may complete as
-many transactions as you like (ie, buy one and sell one share of the
-stock multiple times). However, you may not engage in multiple
-transactions at the same time (ie, you must sell the stock before you
-buy again). */
-#include <cstdio>
-#include <vector>
-using std::vector;
-
 class Solution {
-  public:
-  int maxProfit(vector<int> &prices) {
-    int max_profit = 0;
-    for (size_t i = 0; i + 1 < prices.size(); i++) {
-      if (prices[i+1] - prices[i] > 0) {
-        max_profit += prices[i+1] - prices[i];
-      }
+public:
+    int maxProfit(vector<int>& prices) {
+        int profit = 0;
+        for ( int i = 1; i < prices.size(); i++ ) {
+            int p = prices[i] - prices[i-1];
+            profit += p > 0 ? p : 0;
+        }
+        return profit;
     }
-    return max_profit;
-  }
 };
-
-int main() {
-  int n[] = {1, 2, 1, 3};
-  vector<int> p(n, n+sizeof(n)/sizeof(int));
-  Solution s;
-  printf("%d\n", s.maxProfit(p));
-  return 0;
-}
