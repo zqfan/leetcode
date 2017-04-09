@@ -31,6 +31,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 104. Maximum Depth of Binary Tree | Easy
 | 226. Invert Binary Tree | Easy
 | 404. Sum of Left Leaves | Easy
+| 549. Binary Tree Longest Consecutive Sequence II | Medium | *
 
 # Bit Manipulation
 
@@ -64,6 +65,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 389. Find the Difference | Easy
 | 409. Longest Palindrome | Easy
 | 447. Number of Boomerangs | Easy
+| 554. Brick Wall | Medium
 
 # Linked List
 
@@ -87,6 +89,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 463. Island Perimeter | Easy |
 | 492. Construct the Rectangle | Easy
 | 504. Base 7 | Easy
+| 556. Next Greater Element III | Medium
 
 # Set
 
@@ -114,6 +117,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
 | 541. Reverse String II | Easy
+| 557. Reverse Words in a String III | Easy
 
 # Two Pointer
 
