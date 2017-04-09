@@ -4,12 +4,13 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        if n < 1:
-            return False
-        histories = set()
-        while n != 1:
-            n = sum([int(d) * int(d) for d in str(n)])
-            if n in histories:
-                return False
-            histories.add(n)
-        return True
+        visited = set()
+        while n > 1 and n not in visited:
+            visited.add(n)
+            n = sum(int(d) ** 2 for d in str(n))
+        return n == 1
+
+# 401 / 401 test cases passed.
+# Status: Accepted
+# Runtime: 62 ms
+# beats 35.12%

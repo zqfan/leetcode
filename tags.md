@@ -4,6 +4,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 121. Best Time to Buy and Sell Stock | Easy
 | 169. Majority Element | Easy
 | 283. Move Zeroes | Easy
 | 383. Ransom Note | Easy
@@ -29,8 +30,10 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 100. Same Tree | Easy
 | 104. Maximum Depth of Binary Tree | Easy
+| 108. Convert Sorted Array to Binary Search Tree | Easy
 | 226. Invert Binary Tree | Easy
 | 404. Sum of Left Leaves | Easy
+| 543. Diameter of Binary Tree | Easy
 | 549. Binary Tree Longest Consecutive Sequence II | Medium | *
 
 # Bit Manipulation
@@ -42,6 +45,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 371. Sum of Two Integers | Easy
 | 389. Find the Difference | Easy
 | 401. Binary Watch | Easy
+| 405. Convert a Number to Hexadecimal | Easy
 | 461. Hamming Distance | Easy |
 | 476. Number Complement | Easy |
 
@@ -59,6 +63,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 136. Single Number | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 169. Majority Element | Easy
+| 202. Happy Number | Easy
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy
 | 387. First Unique Character in a String | Easy
@@ -71,6 +76,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-
+| 83. Remove Duplicates from Sorted List | Easy
 | 206. Reverse Linked List | Easy
 | 237. Delete Node in a Linked List | Easy
 
@@ -80,11 +86,14 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 13. Roman to Integer | Easy
 | 171. Excel Sheet Column Number | Easy
+| 231. Power of Two | Easy
 | 258. Add Digits | Easy
 | 268. Missing Number | Easy
 | 292. Nim Game | Easy
+| 326. Power of Three | Easy
 | 389. Find the Difference | Easy
 | 412. Fizz Buzz | Easy |
+| 415. Add Strings | Easy
 | 453. Minimum Moves to Equal Array Elements | Easy
 | 463. Island Perimeter | Easy |
 | 492. Construct the Rectangle | Easy
@@ -113,6 +122,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 344. Reverse String | Easy |
 | 387. First Unique Character in a String | Easy
 | 409. Longest Palindrome | Easy
+| 415. Add Strings | Easy
 | 500. Keyboard Row | Easy |
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
@@ -124,5 +134,6 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 167. Two Sum II - Input array is sorted | Easy
+| 202. Happy Number | Easy
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy

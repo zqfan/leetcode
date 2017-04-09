@@ -5,22 +5,23 @@ class Solution(object):
         :type num2: str
         :rtype: str
         """
-        if len(num1) < len(num2):
-            return self.addStrings(num2, num1)
-
-        l = len(num1)
-        num2 = '0' * (l - len(num2)) + num2
-        sum_str = [0] * (l + 1)
+        result = []
         carry = 0
-        for i in range(l):
-            d1 = ord(num1[l-1-i]) - ord('0')
-            d2 = ord(num2[l-1-i]) - ord('0')
-            d3 = d1 + d2 + carry
-            sum_str[l-i] = chr(d3 % 10 + ord('0'))
-            carry = d3 / 10
-            print sum_str
-        if carry != 0:
-            sum_str[0] = '1'
-            return ''.join(sum_str)
-        else:
-            return ''.join(sum_str[1:])
+        i = len(num1) - 1
+        j = len(num2) - 1
+        while i >= 0 or j >= 0 or carry:
+            s = carry
+            if i >= 0:
+                s += ord(num1[i]) - ord('0')
+                i -= 1
+            if j >= 0:
+                s += ord(num2[j]) - ord('0')
+                j -= 1
+            result.append(str(s % 10));
+            carry = s / 10
+        return ''.join(reversed(result))
+
+# 315 / 315 test cases passed.
+# Status: Accepted
+# Runtime: 75 ms
+# beats 74.73%
