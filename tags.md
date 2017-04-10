@@ -4,6 +4,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 53. Maximum Subarray | Easy
 | 121. Best Time to Buy and Sell Stock | Easy
 | 169. Majority Element | Easy
 | 283. Move Zeroes | Easy
@@ -16,12 +17,14 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 35. Search Insert Position | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 
 # Binary Search Tree
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 235. Lowest Common Ancestor of a Binary Search Tree | Easy
 | 530. Minimum Absolute Difference in BST | Easy
 
 # Binary Tree
@@ -30,9 +33,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 100. Same Tree | Easy
 | 104. Maximum Depth of Binary Tree | Easy
+| 107. Binary Tree Level Order Traversal II | Easy
 | 108. Convert Sorted Array to Binary Search Tree | Easy
 | 226. Invert Binary Tree | Easy
 | 404. Sum of Left Leaves | Easy
+| 437. Path Sum III | Easy
 | 543. Diameter of Binary Tree | Easy
 | 549. Binary Tree Longest Consecutive Sequence II | Medium | *
 
@@ -41,6 +46,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 136. Single Number | Easy
+| 191. Number of 1 Bits | Easy
 | 268. Missing Number | Easy
 | 371. Sum of Two Integers | Easy
 | 389. Find the Difference | Easy
@@ -48,6 +54,18 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 405. Convert a Number to Hexadecimal | Easy
 | 461. Hamming Distance | Easy |
 | 476. Number Complement | Easy |
+
+# Divide and Conquer
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 53. Maximum Subarray | Easy
+
+# Dynamic Programming
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 70. Climbing Stairs | Easy
 
 # Greedy
 
@@ -76,6 +94,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-
+| 21. Merge Two Sorted Lists | Easy
 | 83. Remove Duplicates from Sorted List | Easy
 | 206. Reverse Linked List | Easy
 | 237. Delete Node in a Linked List | Easy
@@ -85,9 +104,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 13. Roman to Integer | Easy
+| 70. Climbing Stairs | Easy
 | 171. Excel Sheet Column Number | Easy
 | 231. Power of Two | Easy
 | 258. Add Digits | Easy
+| 263. Ugly Number | Easy
 | 268. Missing Number | Easy
 | 292. Nim Game | Easy
 | 326. Power of Three | Easy

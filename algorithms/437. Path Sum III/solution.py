@@ -14,23 +14,13 @@ class Solution(object):
         """
         if not root:
             return 0
-        if not root.left and not root.right:
-            return 1 if root.val == sum else 0
-        s = (self.pathSum(root.left, sum) +
-             self.pathSum(root.right, sum) +
-             self.path_sum_wr(root.left, sum - root.val) +
-             self.path_sum_wr(root.right, sum - root.val))
-        if root.val == sum:
-            s += 1
-        return s
+        left = self.pathSum(root.left, sum)
+        right = self.pathSum(root.right, sum)
+        return self.rootSum(root, sum) + left + right
 
-    def path_sum_wr(self, root, sum):
+    def rootSum(self, root, sum):
         if not root:
             return 0
-        if not root.left and not root.right:
-            return 1 if root.val == sum else 0
-        s = (self.path_sum_wr(root.left, sum - root.val) +
-             self.path_sum_wr(root.right, sum - root.val))
-        if root.val == sum:
-            s += 1
-        return s
+        left = self.rootSum(root.left, sum - root.val)
+        right = self.rootSum(root.right, sum - root.val)
+        return (root.val == sum) + left + right
