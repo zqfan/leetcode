@@ -4,6 +4,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 27. Remove Element | Easy
 | 53. Maximum Subarray | Easy
 | 121. Best Time to Buy and Sell Stock | Easy
 | 169. Majority Element | Easy
@@ -25,6 +26,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 235. Lowest Common Ancestor of a Binary Search Tree | Easy
+| 501. Find Mode in Binary Search Tree | Easy | *
 | 530. Minimum Absolute Difference in BST | Easy
 
 # Binary Tree
@@ -48,6 +50,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 136. Single Number | Easy
 | 191. Number of 1 Bits | Easy
 | 268. Missing Number | Easy
+| 342. Power of Four | Easy
 | 371. Sum of Two Integers | Easy
 | 389. Find the Difference | Easy
 | 401. Binary Watch | Easy
@@ -66,6 +69,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 70. Climbing Stairs | Easy
+| 198. House Robber | Easy
 
 # Greedy
 
@@ -144,6 +148,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 387. First Unique Character in a String | Easy
 | 409. Longest Palindrome | Easy
 | 415. Add Strings | Easy
+| 459. Repeated Substring Pattern | Easy | *
 | 500. Keyboard Row | Easy |
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
@@ -154,7 +159,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 27. Remove Element | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 202. Happy Number | Easy
+| 345. Reverse Vowels of a String | Easy
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy

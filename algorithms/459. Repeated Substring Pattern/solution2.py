@@ -1,35 +1,18 @@
 class Solution(object):
-    def repeatedSubstringPattern(self, str):
+    def repeatedSubstringPattern(self, s):
         """
-        :type str: str
+        :type s: str
         :rtype: bool
         """
-        counter = {}
-        for c in str:
-            counter[c] = counter.get(c, 0) + 1
-        values = counter.values()
-        gcd = values[0]
-        for v in values:
-            while v % gcd != 0:
-                v, gcd = gcd, v % gcd
-        if gcd == 1:
-            return False
-        for c in counter:
-            counter[c] /= gcd
-        length = sum(counter.values())
-        step = length
-        while step <= len(str)/2:
-            for j in range(step, len(str), step):
-                for k in reversed(range(step)):
-                    if str[k] != str[j+k]:
-                        break
-                else:
-                    continue
-                break
-            else:
+        l = len(s)
+        for i in xrange(1, l/2 + 1):
+            if l % i != 0:
+                continue
+            if s == s[:i] * (l / i):
                 return True
-            if j == step:
-                step += length
-            else:
-                step = ((j+k) / length + 1) * length
         return False
+
+# 107 / 107 test cases passed.
+# Status: Accepted
+# Runtime: 78 ms
+# beats 60.87%
