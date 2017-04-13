@@ -1,12 +1,12 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        nums_set = set(nums)
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        d = {}
         for i, n in enumerate(nums):
-            if (target - n) not in nums_set:
-                continue
-            try:
-                j = nums.index(target - n, i + 1)
-            except ValueError:
-                pass
-            else:
-                return [i, j]
+            if n in d:
+                return [d[n], i]
+            d[target - n] = i

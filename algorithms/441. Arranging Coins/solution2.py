@@ -4,4 +4,8 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        return int(math.floor(math.sqrt(2*n+0.25)-0.5))
+        rows = 0
+        while n > rows:
+            rows += 1
+            n -= rows
+        return rows

@@ -3,8 +3,7 @@ class Queue(object):
         """
         initialize your data structure here.
         """
-        self._data = []
-        
+        self._data = []        
 
     def push(self, x):
         """

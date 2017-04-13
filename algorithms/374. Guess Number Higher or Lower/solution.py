@@ -9,8 +9,6 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if n <= 1:
-            return 1
         left, right = 1, n
         while left <= right:
             mid = (left + right) / 2

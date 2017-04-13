@@ -5,24 +5,20 @@ class Solution(object):
         :type p: str
         :rtype: List[int]
         """
-        if not s or len(s) < len(p):
-            return []
-
-        finger_p = {}
+        counter = [0] * 26
         for c in p:
-            finger_p[c] = finger_p.get(c, 0) + 1
+            counter[ord(c) - ord('a')] += 1
+        window = [0] * 26
+        n, m = len(s), len(p)
+        result = []
+        for i in xrange(n):
+            window[ord(s[i]) - ord('a')] += 1
+            if i >= m:
+                window[ord(s[i - m]) - ord('a')] -= 1
+            if counter == window:
+                result.append(i - m + 1)
+        return result
 
-        finger_s = {}
-        for i in range(len(p)-1):
-            finger_s[s[i]] = finger_s.get(s[i], 0) + 1
-
-        indices = []
-        for i in range(len(p)-1, len(s)):
-            finger_s[s[i]] = finger_s.get(s[i], 0) + 1
-            if finger_s == finger_p:
-                indices.append(i-len(p)+1)
-            finger_s[s[i-len(p)+1]] -= 1
-            if finger_s[s[i-len(p)+1]] == 0:
-                finger_s.pop(s[i-len(p)+1])
-
-        return indices
+# 36 / 36 test cases passed.
+# Status: Accepted
+# Runtime: 155 ms
