@@ -13,21 +13,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-# Given an array of integers and an integer k,
-# find out whether there there are two distinct indices
-# i and j in the array such that nums[i] = nums[j]
-# and the difference between i and j is at most k.
-
-class Solution:
-    # @param {integer[]} nums
-    # @param {integer} k
-    # @return {boolean}
+class Solution(object):
     def containsNearbyDuplicate(self, nums, k):
-        if k <= 0: return False
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
         hashmap = {}
-        for index, num in enumerate(nums):
-            if num in hashmap:
-                if index - hashmap[num] <= k:
-                    return True
-            hashmap[num] = index
+        for i, n in enumerate(nums):
+            if n in hashmap and i - hashmap[n] <= k:
+                return True
+            hashmap[n] = i
         return False
