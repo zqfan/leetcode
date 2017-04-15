@@ -12,8 +12,10 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 119. Pascal's Triangle II | Easy
 | 121. Best Time to Buy and Sell Stock | Easy
 | 169. Majority Element | Easy
+| 189. Rotate Array | Easy
 | 283. Move Zeroes | Easy
 | 383. Ransom Note | Easy
+| 414. Third Maximum Number | Easy
 | 448. Find All Numbers Disappeared in an Array | Easy
 | 475. Heaters | Easy | *
 | 485. Max Consecutive Ones | Easy
@@ -24,10 +26,13 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 35. Search Insert Position | Easy
+| 69. Sqrt(x) | Easy | *
 | 167. Two Sum II - Input array is sorted | Easy
+| 278. First Bad Version | Easy
 | 367. Valid Perfect Square | Easy
 | 374. Guess Number Higher or Lower | Easy
 | 441. Arranging Coins | Easy
+| 532. K-diff Pairs in an Array | Easy
 
 # Binary Search Tree
 
@@ -85,6 +90,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 70. Climbing Stairs | Easy
 | 198. House Robber | Easy
+| 204. Count Primes | Easy | *
 | 303. Range Sum Query - Immutable | Easy
 
 # Greedy
@@ -131,12 +137,16 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 7. Reverse Integer | Easy
 | 9. Palindrome Number | Easy
 | 13. Roman to Integer | Easy
 | 66. Plus One | Easy
+| 69. Sqrt(x) | Easy | *
 | 70. Climbing Stairs | Easy
+| 168. Excel Sheet Column Title | Easy
 | 171. Excel Sheet Column Number | Easy
 | 172. Factorial Trailing Zeroes | Easy
+| 204. Count Primes | Easy | *
 | 231. Power of Two | Easy
 | 258. Add Digits | Easy
 | 263. Ugly Number | Easy
@@ -163,12 +173,14 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 217. Contains Duplicate | Easy
 | 349. Intersection of Two Arrays | Easy
 | 500. Keyboard Row | Easy |
+| 532. K-diff Pairs in an Array | Easy
 
 # Stack
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 20. Valid Parentheses | Easy
+| 155. Min Stack | Easy
 | 225. Implement Stack using Queues | Easy | *
 | 232. Implement Queue using Stacks | Easy
 | 496. Next Greater Element I | Easy |
@@ -178,9 +190,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 14. Longest Common Prefix | Easy
+| 28. Implement strStr() | Easy
 | 38. Count and Say | Easy
 | 58. Length of Last Word | Easy
 | 67. Add Binary | Easy
+| 125. Valid Palindrome | Easy
 | 242. Valid Anagram | Easy
 | 344. Reverse String | Easy |
 | 387. First Unique Character in a String | Easy
@@ -200,6 +214,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 27. Remove Element | Easy
+| 125. Valid Palindrome | Easy
 | 141. Linked List Cycle | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 202. Happy Number | Easy

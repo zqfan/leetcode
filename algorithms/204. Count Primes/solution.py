@@ -1,5 +1,3 @@
-import math
-
 class Solution(object):
     def countPrimes(self, n):
         """
@@ -8,16 +6,14 @@ class Solution(object):
         """
         if n < 2:
             return 0
-        flags = [1] * n
-        for i in range(2, int(math.sqrt(n)) + 1):
-            if flags[i] == 0:
-                continue
-            j = i
-            while j + i < n:
-                j += i
-                flags[j] = 0
-        return sum(flags) - 2
+        isPrime = [1] * n
+        for i in xrange(2, int(n ** 0.5) + 1):
+            if isPrime[i]:
+                for j in xrange(i * i, n, i):
+                    isPrime[j] = 0
+        return sum(isPrime) - 2
 
-# test
-s = Solution().countPrimes
-print s(499979)
+# 20 / 20 test cases passed.
+# Status: Accepted
+# Runtime: 795 ms
+# beats 72.09%
