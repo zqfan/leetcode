@@ -21,6 +21,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 485. Max Consecutive Ones | Easy
 | 506. Relative Ranks | Easy
 
+# Back Tracking
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 553. Optimal Division | Medium | *
+
 # Binary Search
 
 | Problem | Difficulty | Stars |
@@ -92,6 +98,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | *
 | 303. Range Sum Query - Immutable | Easy
+| 552. Student Attendance Record II | Hard | *
 
 # Greedy
 
@@ -164,6 +171,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 492. Construct the Rectangle | Easy
 | 504. Base 7 | Easy
 | 507. Perfect Number | Easy
+| 553. Optimal Division | Medium | *
 | 556. Next Greater Element III | Medium
 
 # Set
@@ -207,6 +215,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
 | 541. Reverse String II | Easy
+| 555. Split Assembled Strings | Hard | *
 | 557. Reverse Words in a String III | Easy
 
 # Two Pointer
