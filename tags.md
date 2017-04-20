@@ -13,6 +13,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 121. Best Time to Buy and Sell Stock | Easy
 | 169. Majority Element | Easy
 | 189. Rotate Array | Easy
+| 238. Product of Array Except Self | Medium | ★
 | 283. Move Zeroes | Easy
 | 383. Ransom Note | Easy
 | 414. Third Maximum Number | Easy
@@ -21,6 +22,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 448. Find All Numbers Disappeared in an Array | Easy
 | 475. Heaters | Easy | ★
 | 485. Max Consecutive Ones | Easy
+| 495. Teemo Attacking | Medium
 | 506. Relative Ranks | Easy
 
 # Backtracking
@@ -69,6 +71,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 404. Sum of Left Leaves | Easy
 | 437. Path Sum III | Easy
 | 507. Perfect Number | Easy
+| 508. Most Frequent Subtree Sum | Medium
 | 513. Find Bottom Left Tree Value | Medium
 | 515. Find Largest Value in Each Tree Row | Medium
 | 543. Diameter of Binary Tree | Easy
@@ -81,6 +84,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 136. Single Number | Easy
 | 190. Reverse Bits | Easy | ★
 | 191. Number of 1 Bits | Easy
+| 260. Single Number III | Medium | ★
 | 268. Missing Number | Easy
 | 338. Counting Bits | Medium | ★
 | 342. Power of Four | Easy
@@ -96,6 +100,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 529. Minesweeper | Meduim
+| 547. Friend Circles | Medium
 
 # Divide and Conquer
 
@@ -140,8 +145,16 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 389. Find the Difference | Easy
 | 409. Longest Palindrome | Easy
 | 447. Number of Boomerangs | Easy
+| 451. Sort Characters By Frequency | Medium
+| 508. Most Frequent Subtree Sum | Medium
 | 535. Encode and Decode TinyURL | Medium
 | 554. Brick Wall | Medium
+
+# Heap
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-
+| 451. Sort Characters By Frequency | Medium
 
 # Linked List
 
@@ -183,6 +196,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 415. Add Strings | Easy
 | 441. Arranging Coins | Easy
 | 453. Minimum Moves to Equal Array Elements | Easy
+| 462. Minimum Moves to Equal Array Elements II | Medium
 | 463. Island Perimeter | Easy |
 | 492. Construct the Rectangle | Easy
 | 504. Base 7 | Easy
@@ -250,3 +264,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy
 | 475. Heaters | Easy | ★
+
+# Union Find
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+|547. Friend Circles | Medium | ★

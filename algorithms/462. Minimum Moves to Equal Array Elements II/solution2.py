@@ -5,5 +5,5 @@ class Solution(object):
         :rtype: int
         """
         nums.sort()
-        median = nums[len(nums)/2]
-        return sum(map(lambda x: abs(median-x), nums))
+        median = nums[len(nums) / 2]
+        return sum(abs(median - x) for x in nums)
