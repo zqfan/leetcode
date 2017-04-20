@@ -16,23 +16,26 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 283. Move Zeroes | Easy
 | 383. Ransom Note | Easy
 | 414. Third Maximum Number | Easy
+| 419. Battleships in a Board | Medium
+| 442. Find All Duplicates in an Array | Medium
 | 448. Find All Numbers Disappeared in an Array | Easy
-| 475. Heaters | Easy | *
+| 475. Heaters | Easy | ★
 | 485. Max Consecutive Ones | Easy
 | 506. Relative Ranks | Easy
 
-# Back Tracking
+# Backtracking
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
-| 553. Optimal Division | Medium | *
+| 526. Beautiful Arrangement | Medium | ★
+| 553. Optimal Division | Medium | ★
 
 # Binary Search
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 35. Search Insert Position | Easy
-| 69. Sqrt(x) | Easy | *
+| 69. Sqrt(x) | Easy | ★
 | 167. Two Sum II - Input array is sorted | Easy
 | 278. First Bad Version | Easy
 | 367. Valid Perfect Square | Easy
@@ -45,8 +48,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 235. Lowest Common Ancestor of a Binary Search Tree | Easy
-| 501. Find Mode in Binary Search Tree | Easy | *
+| 501. Find Mode in Binary Search Tree | Easy | ★
 | 530. Minimum Absolute Difference in BST | Easy
+| 538. Convert BST to Greater Tree | Medium
 
 # Binary Tree
 
@@ -65,17 +69,20 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 404. Sum of Left Leaves | Easy
 | 437. Path Sum III | Easy
 | 507. Perfect Number | Easy
+| 513. Find Bottom Left Tree Value | Medium
+| 515. Find Largest Value in Each Tree Row | Medium
 | 543. Diameter of Binary Tree | Easy
-| 549. Binary Tree Longest Consecutive Sequence II | Medium | *
+| 549. Binary Tree Longest Consecutive Sequence II | Medium | ★
 
 # Bit Manipulation
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 136. Single Number | Easy
-| 190. Reverse Bits | Easy | *
+| 190. Reverse Bits | Easy | ★
 | 191. Number of 1 Bits | Easy
 | 268. Missing Number | Easy
+| 338. Counting Bits | Medium | ★
 | 342. Power of Four | Easy
 | 371. Sum of Two Integers | Easy
 | 389. Find the Difference | Easy
@@ -83,6 +90,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 405. Convert a Number to Hexadecimal | Easy
 | 461. Hamming Distance | Easy |
 | 476. Number Complement | Easy |
+
+# Depth-first Search / Breadth-first Search
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 529. Minesweeper | Meduim
 
 # Divide and Conquer
 
@@ -96,15 +109,17 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 70. Climbing Stairs | Easy
 | 198. House Robber | Easy
-| 204. Count Primes | Easy | *
+| 204. Count Primes | Easy | ★
 | 303. Range Sum Query - Immutable | Easy
-| 552. Student Attendance Record II | Hard | *
+| 413. Arithmetic Slices | Medium
+| 552. Student Attendance Record II | Hard | ★
 
 # Greedy
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 122. Best Time to Buy and Sell Stock II | Easy
+| 406. Queue Reconstruction by Height | Medium | ★
 | 455. Assign Cookies | Easy
 
 # Hash Table
@@ -118,13 +133,14 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 202. Happy Number | Easy
 | 205. Isomorphic Strings | Easy
 | 219. Contains Duplicate II | Easy
-| 290. Word Pattern | Easy | *
+| 290. Word Pattern | Easy | ★
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy
 | 387. First Unique Character in a String | Easy
 | 389. Find the Difference | Easy
 | 409. Longest Palindrome | Easy
 | 447. Number of Boomerangs | Easy
+| 535. Encode and Decode TinyURL | Medium
 | 554. Brick Wall | Medium
 
 # Linked List
@@ -134,7 +150,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 21. Merge Two Sorted Lists | Easy
 | 83. Remove Duplicates from Sorted List | Easy
 | 141. Linked List Cycle | Easy
-| 160. Intersection of Two Linked Lists | Easy | *
+| 160. Intersection of Two Linked Lists | Easy | ★
 | 203. Remove Linked List Elements | Easy
 | 206. Reverse Linked List | Easy
 | 234. Palindrome Linked List | Easy
@@ -148,12 +164,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 9. Palindrome Number | Easy
 | 13. Roman to Integer | Easy
 | 66. Plus One | Easy
-| 69. Sqrt(x) | Easy | *
+| 69. Sqrt(x) | Easy | ★
 | 70. Climbing Stairs | Easy
 | 168. Excel Sheet Column Title | Easy
 | 171. Excel Sheet Column Number | Easy
 | 172. Factorial Trailing Zeroes | Easy
-| 204. Count Primes | Easy | *
+| 204. Count Primes | Easy | ★
 | 231. Power of Two | Easy
 | 258. Add Digits | Easy
 | 263. Ugly Number | Easy
@@ -171,7 +187,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 492. Construct the Rectangle | Easy
 | 504. Base 7 | Easy
 | 507. Perfect Number | Easy
-| 553. Optimal Division | Medium | *
+| 535. Encode and Decode TinyURL | Medium
+| 553. Optimal Division | Medium | ★
 | 556. Next Greater Element III | Medium
 
 # Set
@@ -189,7 +206,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 20. Valid Parentheses | Easy
 | 155. Min Stack | Easy
-| 225. Implement Stack using Queues | Easy | *
+| 225. Implement Stack using Queues | Easy | ★
 | 232. Implement Queue using Stacks | Easy
 | 496. Next Greater Element I | Easy |
 
@@ -210,12 +227,13 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 415. Add Strings | Easy
 | 434. Number of Segments in a String | Easy
 | 438. Find All Anagrams in a String | Easy
-| 459. Repeated Substring Pattern | Easy | *
+| 459. Repeated Substring Pattern | Easy | ★
 | 500. Keyboard Row | Easy |
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
+| 537. Complex Number Multiplication | Medium
 | 541. Reverse String II | Easy
-| 555. Split Assembled Strings | Hard | *
+| 555. Split Assembled Strings | Hard | ★
 | 557. Reverse Words in a String III | Easy
 
 # Two Pointer
@@ -227,8 +245,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 141. Linked List Cycle | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 202. Happy Number | Easy
-| 234. Palindrome Linked List | Easy | *
+| 234. Palindrome Linked List | Easy | ★
 | 345. Reverse Vowels of a String | Easy
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy
-| 475. Heaters | Easy | *
+| 475. Heaters | Easy | ★

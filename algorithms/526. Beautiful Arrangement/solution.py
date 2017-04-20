@@ -1,4 +1,3 @@
-cache = {}
 class Solution(object):
     def countArrangement(self, N):
         """
@@ -8,13 +7,18 @@ class Solution(object):
         def backtracking(i, remains):
             if not remains:
                 return 1
-            key = (i, remains)
-            if key in cache:
-                return cache[key]
+            if remains in cache:
+                return cache[remains]
             cnt = 0
             for idx, num in enumerate(remains):
                 if num % i == 0 or i % num == 0:
                     cnt += backtracking(i - 1, remains[:idx] + remains[idx + 1:])
-            return cache.setdefault(key, cnt)
+            return cache.setdefault(remains, cnt)
 
+        cache = {}
         return backtracking(N, tuple(xrange(1, N+1)))
+
+# 15 / 15 test cases passed.
+# Status: Accepted
+# Runtime: 116 ms
+# beats 82.28%

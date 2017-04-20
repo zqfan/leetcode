@@ -11,16 +11,13 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        def dfs(node, height):
-            if not node:
-                return
-            if height >= len(self.max_vals):
-                self.max_vals.append(node.val)
-            if node.val > self.max_vals[height]:
-                self.max_vals[height] = node.val
-            dfs(node.left, height + 1)
-            dfs(node.right, height + 1)
-
-        self.max_vals = []
+        def dfs(root, h):
+            if root:
+                if h >= len(result):
+                    result.append(root.val)
+                result[h] = max(result[h], root.val)
+                dfs(root.left, h + 1)
+                dfs(root.right, h + 1)
+        result = []
         dfs(root, 0)
-        return self.max_vals
+        return result

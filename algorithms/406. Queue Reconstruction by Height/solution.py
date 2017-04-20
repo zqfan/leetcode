@@ -4,12 +4,13 @@ class Solution(object):
         :type people: List[List[int]]
         :rtype: List[List[int]]
         """
-        heap = [[k, h, i] for i, (h, k) in enumerate(people)]
-        ordered_queue = []
-        while heap:
-            heapq.heapify(heap)
-            ordered_queue.append(people[heapq.heappop(heap)[2]])
-            for element in heap:
-                if ordered_queue[-1][0] >= element[1]:
-                    element[0] -= 1
-        return ordered_queue
+        people.sort(key=lambda x: (-x[0], x[1]))
+        result = []
+        for p in people:
+            result.insert(p[1], p)
+        return result
+
+# 37 / 37 test cases passed.
+# Status: Accepted
+# Runtime: 142 ms
+# beats 83.58%
