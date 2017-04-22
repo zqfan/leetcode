@@ -21,6 +21,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 442. Find All Duplicates in an Array | Medium
 | 448. Find All Numbers Disappeared in an Array | Easy
 | 475. Heaters | Easy | ★
+| 481. Magical String | Medium
 | 485. Max Consecutive Ones | Easy
 | 495. Teemo Attacking | Medium
 | 506. Relative Ranks | Easy
@@ -59,6 +60,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 94. Binary Tree Inorder Traversal | Medium
 | 100. Same Tree | Easy
 | 101. Symmetric Tree | Easy
 | 104. Maximum Depth of Binary Tree | Easy
@@ -126,6 +128,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 303. Range Sum Query - Immutable | Easy
 | 343. Integer Break | Medium
 | 413. Arithmetic Slices | Medium
+| 486. Predict the Winner | Medium | ★
 | 552. Student Attendance Record II | Hard | ★
 
 # Greedy
@@ -264,6 +267,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
 | 537. Complex Number Multiplication | Medium
+| 539. Minimum Time Difference | Medium
 | 541. Reverse String II | Easy
 | 555. Split Assembled Strings | Hard | ★
 | 557. Reverse Words in a String III | Easy
