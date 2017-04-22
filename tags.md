@@ -43,6 +43,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 367. Valid Perfect Square | Easy
 | 374. Guess Number Higher or Lower | Easy
 | 441. Arranging Coins | Easy
+| 454. 4Sum II | Medium
 | 532. K-diff Pairs in an Array | Easy
 
 # Binary Search Tree
@@ -94,6 +95,13 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 405. Convert a Number to Hexadecimal | Easy
 | 461. Hamming Distance | Easy |
 | 476. Number Complement | Easy |
+| 477. Total Hamming Distance | Medium
+
+# Bucket Sort
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 347. Top K Frequent Elements | Medium | ★
 
 # Depth-first Search / Breadth-first Search
 
@@ -116,6 +124,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
 | 303. Range Sum Query - Immutable | Easy
+| 343. Integer Break | Medium
 | 413. Arithmetic Slices | Medium
 | 552. Student Attendance Record II | Hard | ★
 
@@ -146,6 +155,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 409. Longest Palindrome | Easy
 | 447. Number of Boomerangs | Easy
 | 451. Sort Characters By Frequency | Medium
+| 454. 4Sum II | Medium
 | 508. Most Frequent Subtree Sum | Medium
 | 535. Encode and Decode TinyURL | Medium
 | 554. Brick Wall | Medium
@@ -154,6 +164,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-
+| 347. Top K Frequent Elements | Medium
 | 451. Sort Characters By Frequency | Medium
 
 # Linked List
@@ -168,6 +179,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 206. Reverse Linked List | Easy
 | 234. Palindrome Linked List | Easy
 | 237. Delete Node in a Linked List | Easy
+| 382. Linked List Random Node | Medium
+| 445. Add Two Numbers II | Medium | ★
 
 # Math
 
@@ -189,7 +202,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 268. Missing Number | Easy
 | 292. Nim Game | Easy
 | 326. Power of Three | Easy
+| 343. Integer Break | Medium
+| 357. Count Numbers with Unique Digits | Medium
 | 367. Valid Perfect Square | Easy
+| 382. Linked List Random Node | Medium
+| 384. Shuffle an Array | Medium
 | 389. Find the Difference | Easy
 | 400. Nth Digit | Easy
 | 412. Fizz Buzz | Easy |
@@ -223,6 +240,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 225. Implement Stack using Queues | Easy | ★
 | 232. Implement Queue using Stacks | Easy
 | 496. Next Greater Element I | Easy |
+| 503. Next Greater Element II | Medium | ★
 
 # String
 
@@ -269,4 +287,10 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
-|547. Friend Circles | Medium | ★
+| 547. Friend Circles | Medium | ★
+
+# No Tag
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 498. Diagonal Traverse | Medium | ★

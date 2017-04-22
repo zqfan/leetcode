@@ -4,11 +4,9 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if n == 0:
-            return 1
-        n = min(10, n)
-        k = [0] * n
-        k[0] = 10
-        for i in range(2, n+1):
-            k[i-1] = 9 * reduce(operator.mul, range(9,10-i,-1))
-        return sum(k)
+        count, product, limit = 1, 1, min(n, 10)
+        choices = [9, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+        for i in xrange(limit):
+            product *= choices[i]
+            count += product
+        return count
