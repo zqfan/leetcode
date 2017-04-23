@@ -44,6 +44,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 278. First Bad Version | Easy
 | 367. Valid Perfect Square | Easy
 | 374. Guess Number Higher or Lower | Easy
+| 392. Is Subsequence | Medium | ★
 | 441. Arranging Coins | Easy
 | 454. 4Sum II | Medium
 | 532. K-diff Pairs in an Array | Easy
@@ -97,6 +98,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 389. Find the Difference | Easy
 | 401. Binary Watch | Easy
 | 405. Convert a Number to Hexadecimal | Easy
+| 421. Maximum XOR of Two Numbers in an Array | Medium | ★
 | 461. Hamming Distance | Easy |
 | 476. Number Complement | Easy |
 | 477. Total Hamming Distance | Medium
@@ -139,6 +141,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 122. Best Time to Buy and Sell Stock II | Easy
+| 392. Is Subsequence | Medium
 | 406. Queue Reconstruction by Height | Medium | ★
 | 455. Assign Cookies | Easy
 
@@ -275,6 +278,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 555. Split Assembled Strings | Hard | ★
 | 557. Reverse Words in a String III | Easy
 | 564. Find the Closest Palindrome | Hard | ★
+
+# Trie
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 421. Maximum XOR of Two Numbers in an Array | Medium | ★
 
 # Two Pointer
 
