@@ -25,6 +25,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 485. Max Consecutive Ones | Easy
 | 495. Teemo Attacking | Medium
 | 506. Relative Ranks | Easy
+| 561. Array Partition I | Easy
 
 # Backtracking
 
@@ -79,6 +80,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 515. Find Largest Value in Each Tree Row | Medium
 | 543. Diameter of Binary Tree | Easy
 | 549. Binary Tree Longest Consecutive Sequence II | Medium | ★
+| 563. Binary Tree Tilt | Easy
 
 # Bit Manipulation
 
@@ -130,6 +132,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 413. Arithmetic Slices | Medium
 | 486. Predict the Winner | Medium | ★
 | 552. Student Attendance Record II | Hard | ★
+| 562. Longest Line of Consecutive One in Matrix | Medium
 
 # Greedy
 
@@ -271,6 +274,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 541. Reverse String II | Easy
 | 555. Split Assembled Strings | Hard | ★
 | 557. Reverse Words in a String III | Easy
+| 564. Find the Closest Palindrome | Hard | ★
 
 # Two Pointer
 
