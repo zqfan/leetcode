@@ -5,18 +5,5 @@ class Solution(object):
         :type n: int
         :rtype: List[List[int]]
         """
-        comb_arr = []
-        comb = []
-        def dfs(s, n):
-            if len(comb) >= k:
-                if n == 0:
-                    comb_arr.append(comb[:])
-                return
-            for i in range(s, 10):
-                if n < i:
-                    return
-                comb.append(i)
-                dfs(i+1, n-i)
-                comb.pop()
-        dfs(1, n)
-        return comb_arr
+        # @StefanPochmann
+        return [c for c in itertools.combinations(xrange(1, 10), k) if sum(c) == n]

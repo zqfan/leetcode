@@ -15,6 +15,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 189. Rotate Array | Easy
 | 238. Product of Array Except Self | Medium | ★
 | 283. Move Zeroes | Easy
+| 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 383. Ransom Note | Easy
 | 414. Third Maximum Number | Easy
 | 419. Battleships in a Board | Medium
@@ -31,6 +32,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 22. Generate Parentheses | Medium | ★
+| 216. Combination Sum III | Medium
 | 526. Beautiful Arrangement | Medium | ★
 | 553. Optimal Division | Medium | ★
 
@@ -44,6 +47,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 278. First Bad Version | Easy
 | 367. Valid Perfect Square | Easy
 | 374. Guess Number Higher or Lower | Easy
+| 378. Kth Smallest Element in a Sorted Matrix | Medium | ★
 | 392. Is Subsequence | Medium | ★
 | 441. Arranging Coins | Easy
 | 454. 4Sum II | Medium
@@ -71,6 +75,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 110. Balanced Binary Tree | Easy
 | 111. Minimum Depth of Binary Tree | Easy
 | 112. Path Sum | Easy
+| 144. Binary Tree Preorder Traversal | Medium
 | 226. Invert Binary Tree | Easy
 | 257. Binary Tree Paths | Easy
 | 404. Sum of Left Leaves | Easy
@@ -92,6 +97,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 191. Number of 1 Bits | Easy
 | 260. Single Number III | Medium | ★
 | 268. Missing Number | Easy
+| 318. Maximum Product of Word Lengths | Medium
 | 338. Counting Bits | Medium | ★
 | 342. Power of Four | Easy
 | 371. Sum of Two Integers | Easy
@@ -113,6 +119,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 494. Target Sum | Medium | ★
 | 529. Minesweeper | Meduim
 | 547. Friend Circles | Medium
 
@@ -133,6 +140,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 343. Integer Break | Medium
 | 413. Arithmetic Slices | Medium
 | 486. Predict the Winner | Medium | ★
+| 494. Target Sum | Medium
 | 552. Student Attendance Record II | Hard | ★
 | 562. Longest Line of Consecutive One in Matrix | Medium
 
@@ -143,6 +151,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 122. Best Time to Buy and Sell Stock II | Easy
 | 392. Is Subsequence | Medium
 | 406. Queue Reconstruction by Height | Medium | ★
+| 452. Minimum Number of Arrows to Burst Balloons | Medium
 | 455. Assign Cookies | Easy
 
 # Hash Table
@@ -174,6 +183,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-
 | 347. Top K Frequent Elements | Medium
+| 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 451. Sort Characters By Frequency | Medium
 
 # Linked List
@@ -197,6 +207,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 7. Reverse Integer | Easy
 | 9. Palindrome Number | Easy
+| 12. Integer to Roman | Medium | ★
 | 13. Roman to Integer | Easy
 | 66. Plus One | Easy
 | 69. Sqrt(x) | Easy | ★
