@@ -45,6 +45,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 69. Sqrt(x) | Easy | ★
 | 167. Two Sum II - Input array is sorted | Easy
 | 278. First Bad Version | Easy
+| 287. Find the Duplicate Number | Medium | ★
 | 367. Valid Perfect Square | Easy
 | 374. Guess Number Higher or Lower | Easy
 | 378. Kth Smallest Element in a Sorted Matrix | Medium | ★
@@ -57,7 +58,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 230. Kth Smallest Element in a BST | Medium
 | 235. Lowest Common Ancestor of a Binary Search Tree | Easy
+| 449. Serialize and Deserialize BST | Medium | ★
 | 501. Find Mode in Binary Search Tree | Easy | ★
 | 530. Minimum Absolute Difference in BST | Easy
 | 538. Convert BST to Greater Tree | Medium
@@ -78,6 +81,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 144. Binary Tree Preorder Traversal | Medium
 | 226. Invert Binary Tree | Easy
 | 257. Binary Tree Paths | Easy
+| 337. House Robber III | Medium
 | 404. Sum of Left Leaves | Easy
 | 437. Path Sum III | Easy
 | 507. Perfect Number | Easy
@@ -128,6 +132,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 53. Maximum Subarray | Easy
+| 241. Different Ways to Add Parentheses | Medium
 
 # Dynamic Programming
 
@@ -141,6 +146,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 413. Arithmetic Slices | Medium
 | 486. Predict the Winner | Medium | ★
 | 494. Target Sum | Medium
+| 516. Longest Palindromic Subsequence | Medium
 | 552. Student Attendance Record II | Hard | ★
 | 562. Longest Line of Consecutive One in Matrix | Medium
 
@@ -198,6 +204,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 206. Reverse Linked List | Easy
 | 234. Palindrome Linked List | Easy
 | 237. Delete Node in a Linked List | Easy
+| 328. Odd Even Linked List | Medium
 | 382. Linked List Random Node | Medium
 | 445. Add Two Numbers II | Medium | ★
 
@@ -221,6 +228,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 263. Ugly Number | Easy
 | 268. Missing Number | Easy
 | 292. Nim Game | Easy
+| 319. Bulb Switcher | Medium
 | 326. Power of Three | Easy
 | 343. Integer Break | Medium
 | 357. Count Numbers with Unique Digits | Medium
@@ -277,6 +285,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 387. First Unique Character in a String | Easy
 | 409. Longest Palindrome | Easy
 | 415. Add Strings | Easy
+| 423. Reconstruct Original Digits from English | Medium
 | 434. Number of Segments in a String | Easy
 | 438. Find All Anagrams in a String | Easy
 | 459. Repeated Substring Pattern | Easy | ★
@@ -306,6 +315,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 167. Two Sum II - Input array is sorted | Easy
 | 202. Happy Number | Easy
 | 234. Palindrome Linked List | Easy | ★
+| 287. Find the Duplicate Number | Medium | ★
 | 345. Reverse Vowels of a String | Easy
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy

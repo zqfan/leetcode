@@ -4,28 +4,16 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        digits = ['' ] * 10
-        pop_order = [
-            ('g', "eight", '8'),
-            ('h', "three", '3'),
-            ('u', "four", '4'),
-            ('f', "five", '5'),
-            ('r', "zero", '0'),
-            ('t', "two", '2'),
-            ('o', "one", '1'),
-            ('v', "seven", '7'),
-            ('e', "nine", '9'),
-            ('s', "six", '6')]
-        chr_count = collections.defaultdict(int)
-        for c in s:
-            chr_count[c] += 1
-        for c, word, d in pop_order:
-            for w in word:
-                if w not in chr_count:
-                    break
-            else:
-                cnt = chr_count[c]
-                for w in word:
-                    chr_count[w] -= cnt
-                    digits[ord(d)-ord('0')] = d * cnt
-        return "".join(digits)
+        result = [''] * 26
+        counter = collections.Counter(s)
+        unique = [['z', '0', 'zero'], ['w', '2', 'two'],
+                  ['u', '4', 'four'], ['o', '1', 'one'],
+                  ['r', '3', 'three'], ['f', '5', 'five'],
+                  ['x', '6', 'six'], ['s', '7', 'seven'],
+                  ['g', '8', 'eight'], ['i', '9', 'nine']]
+        for c, d, w in unique:
+            n = counter[c]
+            result[ord(d) - ord('0')] = d * n
+            for cc in w:
+                counter[cc] -= n
+        return ''.join(result)
