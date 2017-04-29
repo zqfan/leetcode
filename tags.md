@@ -33,6 +33,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 22. Generate Parentheses | Medium | ★
+| 46. Permutations | Medium
 | 216. Combination Sum III | Medium
 | 526. Beautiful Arrangement | Medium | ★
 | 553. Optimal Division | Medium | ★
@@ -50,6 +51,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 374. Guess Number Higher or Lower | Easy
 | 378. Kth Smallest Element in a Sorted Matrix | Medium | ★
 | 392. Is Subsequence | Medium | ★
+| 436. Find Right Interval | Medium
 | 441. Arranging Coins | Easy
 | 454. 4Sum II | Medium
 | 532. K-diff Pairs in an Array | Easy
@@ -123,6 +125,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 394. Decode String | Medium | ★
 | 494. Target Sum | Medium | ★
 | 529. Minesweeper | Meduim
 | 547. Friend Circles | Medium
@@ -143,6 +146,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 204. Count Primes | Easy | ★
 | 303. Range Sum Query - Immutable | Easy
 | 343. Integer Break | Medium
+| 377. Combination Sum IV | Medium | ★
 | 413. Arithmetic Slices | Medium
 | 486. Predict the Winner | Medium | ★
 | 494. Target Sum | Medium
@@ -177,6 +181,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 387. First Unique Character in a String | Easy
 | 389. Find the Difference | Easy
 | 409. Longest Palindrome | Easy
+| 436. Find Right Interval | Medium
 | 447. Number of Boomerangs | Easy
 | 451. Sort Characters By Frequency | Medium
 | 454. 4Sum II | Medium
@@ -236,6 +241,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 382. Linked List Random Node | Medium
 | 384. Shuffle an Array | Medium
 | 389. Find the Difference | Easy
+| 398. Random Pick Index | Medium
 | 400. Nth Digit | Easy
 | 412. Fizz Buzz | Easy |
 | 415. Add Strings | Easy
@@ -259,6 +265,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 500. Keyboard Row | Easy |
 | 532. K-diff Pairs in an Array | Easy
 
+# Sliding Window
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 424. Longest Repeating Character Replacement | Medium | ★
+
 # Stack
 
 | Problem | Difficulty | Stars |
@@ -267,6 +279,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 155. Min Stack | Easy
 | 225. Implement Stack using Queues | Easy | ★
 | 232. Implement Queue using Stacks | Easy
+| 394. Decode String | Medium | ★
 | 496. Next Greater Element I | Easy |
 | 503. Next Greater Element II | Medium | ★
 
@@ -289,9 +302,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 434. Number of Segments in a String | Easy
 | 438. Find All Anagrams in a String | Easy
 | 459. Repeated Substring Pattern | Easy | ★
+| 482. License Key Formatting | Medium
 | 500. Keyboard Row | Easy |
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
+| 524. Longest Word in Dictionary through Deleting | Medium
 | 537. Complex Number Multiplication | Medium
 | 539. Minimum Time Difference | Medium
 | 541. Reverse String II | Easy
@@ -320,6 +335,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 350. Intersection of Two Arrays II | Easy
 | 383. Ransom Note | Easy
 | 475. Heaters | Easy | ★
+| 524. Longest Word in Dictionary through Deleting | Medium
 
 # Union Find
 

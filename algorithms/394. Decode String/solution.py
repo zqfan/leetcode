@@ -4,20 +4,18 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        # refer: http://bookshadow.com/weblog/2016/09/04/leetcode-decode-string/
-        str_lvl = collections.defaultdict(str)
-        num_lvl = collections.defaultdict(int)
-        lvl = 0
+        # @ayushpatwari
+        stack = [["", 1]]
+        n = 0
         for c in s:
             if c.isdigit():
-                num_lvl[lvl] = num_lvl[lvl] * 10 + int(c)
+                n = n * 10 + int(c)
             elif c.isalpha():
-                str_lvl[lvl] += c
+                stack[-1][0] += c
+            elif c == '[':
+                stack.append(["", n])
+                n = 0
             elif c == ']':
-                str_lvl[lvl-1] += str_lvl[lvl] * num_lvl[lvl-1]
-                str_lvl[lvl] = ''
-                num_lvl[lvl-1] = 0
-                lvl -= 1
-            else:
-                lvl += 1
-        return str_lvl[0]
+                subs, count = stack.pop()
+                stack[-1][0] += subs * count
+        return stack[0][0]
