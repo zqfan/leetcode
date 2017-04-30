@@ -27,6 +27,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 495. Teemo Attacking | Medium
 | 506. Relative Ranks | Easy
 | 561. Array Partition I | Easy
+| 566. Reshape the Matrix | Easy
 
 # Backtracking
 
@@ -153,6 +154,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 516. Longest Palindromic Subsequence | Medium
 | 552. Student Attendance Record II | Hard | ★
 | 562. Longest Line of Consecutive One in Matrix | Medium
+| 568. Maximum Vacation Days | Hard | ★
 
 # Greedy
 
@@ -188,6 +190,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 508. Most Frequent Subtree Sum | Medium
 | 535. Encode and Decode TinyURL | Medium
 | 554. Brick Wall | Medium
+| 560. Subarray Sum Equals K | Medium
 
 # Heap
 
@@ -270,6 +273,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 424. Longest Repeating Character Replacement | Medium | ★
+| 567. Permutation in String | Medium
 
 # Stack
 
