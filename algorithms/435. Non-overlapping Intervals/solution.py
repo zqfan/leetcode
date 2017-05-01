@@ -10,15 +10,12 @@ class Solution(object):
         :type intervals: List[Interval]
         :rtype: int
         """
-        if not intervals:
-            return 0
-        intervals.sort(key=lambda o: o.start)  # use sorted in real case
+        intervals.sort(key=lambda x: (x.end, x.start))
         removes = 0
-        end = intervals[0].end
-        for i in intervals:
-            if i.start < end:
+        pre = float('-inf')
+        for i in xrange(len(intervals)):
+            if intervals[i].start < pre:
                 removes += 1
-                end = min(end, i.end)
             else:
-                end = i.end
-        return removes - 1
+                pre = intervals[i].end
+        return removes

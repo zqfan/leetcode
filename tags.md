@@ -100,6 +100,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 136. Single Number | Easy
+| 137. Single Number II | Medium
 | 190. Reverse Bits | Easy | ★
 | 191. Number of 1 Bits | Easy
 | 260. Single Number III | Medium | ★
@@ -143,6 +144,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 70. Climbing Stairs | Easy
+| 96. Unique Binary Search Trees | Medium | ★
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
 | 303. Range Sum Query - Immutable | Easy
@@ -155,6 +157,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 552. Student Attendance Record II | Hard | ★
 | 562. Longest Line of Consecutive One in Matrix | Medium
 | 568. Maximum Vacation Days | Hard | ★
+
+# Graph
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 399. Evaluate Division | Medium | ★★
 
 # Greedy
 
@@ -227,6 +235,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 66. Plus One | Easy
 | 69. Sqrt(x) | Easy | ★
 | 70. Climbing Stairs | Easy
+| 96. Unique Binary Search Trees | Medium | ★
 | 168. Excel Sheet Column Title | Easy
 | 171. Excel Sheet Column Number | Easy
 | 172. Factorial Trailing Zeroes | Easy
@@ -243,7 +252,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 367. Valid Perfect Square | Easy
 | 382. Linked List Random Node | Medium
 | 384. Shuffle an Array | Medium
+| 386. Lexicographical Numbers | Medium | ★
 | 389. Find the Difference | Easy
+| 390. Elimination Game | Medium
 | 398. Random Pick Index | Medium
 | 400. Nth Digit | Easy
 | 412. Fizz Buzz | Easy |
@@ -283,6 +294,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 155. Min Stack | Easy
 | 225. Implement Stack using Queues | Easy | ★
 | 232. Implement Queue using Stacks | Easy
+| 341. Flatten Nested List Iterator | Medium | ★
 | 394. Decode String | Medium | ★
 | 496. Next Greater Element I | Easy |
 | 503. Next Greater Element II | Medium | ★
@@ -346,6 +358,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 547. Friend Circles | Medium | ★
+| 399. Evaluate Division | Medium | ★★
 
 # No Tag
 
