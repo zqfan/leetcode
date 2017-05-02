@@ -4,21 +4,11 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        if not prices:
-            return 0
-        # cooldown max profit, sell max profit, hold max profit, min hold value
-        state = [[0]*4, [0,0,0,prices[0]]]
-        for i, p in enumerate(prices, 2):
-            state[0][0] = max(state[1][0], state[1][1])
-            if p > state[1][3]:
-                state[0][1] = state[1][2] + p - state[1][3]
-            else:
-                state[0][1] = state[1][2]
-            if state[1][0] - p > state[1][2] - state[1][3]:
-                state[0][2] = state[1][0]
-                state[0][3] = p
-            else:
-                state[0][2] = state[1][2]
-                state[0][3] = min(p, state[1][3])
-            state[0], state[1] = state[1], state[0]
-        return max(state[1][0], state[1][1], state[1][2])
+        n = len(prices)
+        buy, sell, rest = [0] * (n + 1), [0] * (n + 1), [0] * (n + 1)
+        buy[0] = float('-inf')
+        for i, p in enumerate(prices):
+            buy[i+1] = max(buy[i], rest[i] - p)
+            sell[i+1] = max(sell[i], buy[i] + p)
+            rest[i+1] = max(buy[i], sell[i], rest[i])
+        return sell[n]

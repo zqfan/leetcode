@@ -35,6 +35,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 22. Generate Parentheses | Medium | ★
 | 46. Permutations | Medium
+| 89. Gray Code | Medium
 | 216. Combination Sum III | Medium
 | 526. Beautiful Arrangement | Medium | ★
 | 553. Optimal Division | Medium | ★
@@ -143,11 +144,13 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 62. Unique Paths | Medium
 | 70. Climbing Stairs | Easy
 | 96. Unique Binary Search Trees | Medium | ★
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
 | 303. Range Sum Query - Immutable | Easy
+| 309. Best Time to Buy and Sell Stock with Cooldown | Medium | ★★
 | 343. Integer Break | Medium
 | 377. Combination Sum IV | Medium | ★
 | 413. Arithmetic Slices | Medium
@@ -232,9 +235,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 9. Palindrome Number | Easy
 | 12. Integer to Roman | Medium | ★
 | 13. Roman to Integer | Easy
+| 62. Unique Paths | Medium | ★
 | 66. Plus One | Easy
 | 69. Sqrt(x) | Easy | ★
 | 70. Climbing Stairs | Easy
+| 89. Gray Code | Medium | ★
 | 96. Unique Binary Search Trees | Medium | ★
 | 168. Excel Sheet Column Title | Easy
 | 171. Excel Sheet Column Number | Easy
@@ -292,6 +297,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 20. Valid Parentheses | Easy
 | 155. Min Stack | Easy
+| 173. Binary Search Tree Iterator | Medium
 | 225. Implement Stack using Queues | Easy | ★
 | 232. Implement Queue using Stacks | Easy
 | 341. Flatten Nested List Iterator | Medium | ★
