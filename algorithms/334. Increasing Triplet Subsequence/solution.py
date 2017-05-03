@@ -9,13 +9,12 @@ class Solution(object):
         # Define smallest_peak is the smallest peak.
         # Note that smallest number may be left or right side
         # of smallest_peak, but it doesn't matter.
-        smallest = smallest_peak = None
+        smallest = smallest_peak = float('inf')
         for n in nums:
-            if smallest_peak is not None and n > smallest_peak:
+            if n > smallest_peak:
                 return True
+            smallest = min(smallest, n)
             # we find a new peak and it is less than smallest_peak
-            elif smallest is not None and n > smallest:
+            if smallest < n < smallest_peak:
                 smallest_peak = n
-            else:
-                smallest = n
         return False

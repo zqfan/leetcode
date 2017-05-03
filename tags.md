@@ -7,6 +7,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 26. Remove Duplicates from Sorted Array | Easy
 | 27. Remove Element | Easy
 | 53. Maximum Subarray | Easy
+| 59. Spiral Matrix II | Medium
 | 88. Merge Sorted Array | Easy
 | 118. Pascal's Triangle | Easy
 | 119. Pascal's Triangle II | Easy
@@ -15,6 +16,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 189. Rotate Array | Easy
 | 238. Product of Array Except Self | Medium | ★
 | 283. Move Zeroes | Easy
+| 334. Increasing Triplet Subsequence | Medium
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 383. Ransom Note | Easy
 | 414. Third Maximum Number | Easy
@@ -35,8 +37,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 22. Generate Parentheses | Medium | ★
 | 46. Permutations | Medium
+| 77. Combinations | Medium
+| 78. Subsets | Medium
 | 89. Gray Code | Medium
 | 216. Combination Sum III | Medium
+| 491. Increasing Subsequences | Medium
 | 526. Beautiful Arrangement | Medium | ★
 | 553. Optimal Division | Medium | ★
 
@@ -46,6 +51,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 35. Search Insert Position | Easy
 | 69. Sqrt(x) | Easy | ★
+| 153. Find Minimum in Rotated Sorted Array | Medium
 | 167. Two Sum II - Input array is sorted | Easy
 | 278. First Bad Version | Easy
 | 287. Find the Duplicate Number | Medium | ★
@@ -76,6 +82,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 94. Binary Tree Inorder Traversal | Medium
 | 100. Same Tree | Easy
 | 101. Symmetric Tree | Easy
+| 102. Binary Tree Level Order Traversal | Medium
 | 104. Maximum Depth of Binary Tree | Easy
 | 107. Binary Tree Level Order Traversal II | Easy
 | 108. Convert Sorted Array to Binary Search Tree | Easy
@@ -83,6 +90,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 111. Minimum Depth of Binary Tree | Easy
 | 112. Path Sum | Easy
 | 144. Binary Tree Preorder Traversal | Medium
+| 199. Binary Tree Right Side View | Medium
 | 226. Invert Binary Tree | Easy
 | 257. Binary Tree Paths | Easy
 | 337. House Robber III | Medium
@@ -100,6 +108,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 78. Subsets | Medium | ★
 | 136. Single Number | Easy
 | 137. Single Number II | Medium
 | 190. Reverse Bits | Easy | ★
@@ -138,6 +147,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 53. Maximum Subarray | Easy
+| 215. Kth Largest Element in an Array | Medium | ★
 | 241. Different Ways to Add Parentheses | Medium
 
 # Dynamic Programming
@@ -154,6 +164,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 343. Integer Break | Medium
 | 377. Combination Sum IV | Medium | ★
 | 413. Arithmetic Slices | Medium
+| 416. Partition Equal Subset Sum | Medium
 | 486. Predict the Winner | Medium | ★
 | 494. Target Sum | Medium
 | 516. Longest Palindromic Subsequence | Medium
@@ -190,6 +201,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 219. Contains Duplicate II | Easy
 | 290. Word Pattern | Easy | ★
 | 350. Intersection of Two Arrays II | Easy
+| 380. Insert Delete GetRandom O(1) | Medium | ★
 | 383. Ransom Note | Easy
 | 387. First Unique Character in a String | Easy
 | 389. Find the Difference | Easy
@@ -207,7 +219,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-
-| 347. Top K Frequent Elements | Medium
+| 215. Kth Largest Element in an Array | Medium
+| 347. Top K Frequent Elements | Medium | ★
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 451. Sort Characters By Frequency | Medium
 
