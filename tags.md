@@ -6,6 +6,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 26. Remove Duplicates from Sorted Array | Easy
 | 27. Remove Element | Easy
+| 48. Rotate Image | Medium | ★
 | 53. Maximum Subarray | Easy
 | 59. Spiral Matrix II | Medium
 | 88. Merge Sorted Array | Easy
@@ -15,6 +16,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 169. Majority Element | Easy
 | 189. Rotate Array | Easy
 | 238. Product of Array Except Self | Medium | ★
+| 240. Search a 2D Matrix II | Medium
 | 283. Move Zeroes | Easy
 | 334. Increasing Triplet Subsequence | Medium
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
@@ -53,6 +55,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 69. Sqrt(x) | Easy | ★
 | 153. Find Minimum in Rotated Sorted Array | Medium
 | 167. Two Sum II - Input array is sorted | Easy
+| 240. Search a 2D Matrix II | Medium
 | 278. First Bad Version | Easy
 | 287. Find the Duplicate Number | Medium | ★
 | 367. Valid Perfect Square | Easy
@@ -148,6 +151,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 53. Maximum Subarray | Easy
 | 215. Kth Largest Element in an Array | Medium | ★
+| 240. Search a 2D Matrix II | Medium | ★
 | 241. Different Ways to Add Parentheses | Medium
 
 # Dynamic Programming
