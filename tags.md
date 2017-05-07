@@ -58,6 +58,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 240. Search a 2D Matrix II | Medium
 | 278. First Bad Version | Easy
 | 287. Find the Duplicate Number | Medium | ★
+| 300. Longest Increasing Subsequence | Medium | ★★
 | 367. Valid Perfect Square | Easy
 | 374. Guess Number Higher or Lower | Easy
 | 378. Kth Smallest Element in a Sorted Matrix | Medium | ★
@@ -159,10 +160,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 62. Unique Paths | Medium
+| 64. Minimum Path Sum | Medium
 | 70. Climbing Stairs | Easy
 | 96. Unique Binary Search Trees | Medium | ★
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
+| 300. Longest Increasing Subsequence | Medium | ★★
 | 303. Range Sum Query - Immutable | Easy
 | 309. Best Time to Buy and Sell Stock with Cooldown | Medium | ★★
 | 343. Integer Break | Medium
@@ -174,7 +177,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 516. Longest Palindromic Subsequence | Medium
 | 552. Student Attendance Record II | Hard | ★
 | 562. Longest Line of Consecutive One in Matrix | Medium
-| 568. Maximum Vacation Days | Hard | ★
+| 568. Maximum Vacation Days | Hard | ★★
 
 # Graph
 
