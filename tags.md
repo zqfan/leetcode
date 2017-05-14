@@ -32,6 +32,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 506. Relative Ranks | Easy
 | 561. Array Partition I | Easy
 | 566. Reshape the Matrix | Easy
+| 573. Squirrel Simulation | Medium
 
 # Backtracking
 
@@ -107,6 +108,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 543. Diameter of Binary Tree | Easy
 | 549. Binary Tree Longest Consecutive Sequence II | Medium | ★
 | 563. Binary Tree Tilt | Easy
+| 572. Subtree of Another Tree | Easy
 
 # Bit Manipulation
 
@@ -178,6 +180,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 552. Student Attendance Record II | Hard | ★
 | 562. Longest Line of Consecutive One in Matrix | Medium
 | 568. Maximum Vacation Days | Hard | ★★
+| 576. Out of Boundary Paths | Medium | ★
 
 # Graph
 
@@ -303,6 +306,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 349. Intersection of Two Arrays | Easy
 | 500. Keyboard Row | Easy |
 | 532. K-diff Pairs in an Array | Easy
+| 575. Distribute Candies | Easy | ★
 
 # Sliding Window
 
