@@ -33,6 +33,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 561. Array Partition I | Easy
 | 566. Reshape the Matrix | Easy
 | 573. Squirrel Simulation | Medium
+| 581. Shortest Unsorted Continuous Subarray | Easy
 
 # Backtracking
 
@@ -147,6 +148,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 494. Target Sum | Medium | ★
 | 529. Minesweeper | Meduim
 | 547. Friend Circles | Medium
+| 582. Kill Process | Medium
 
 # Divide and Conquer
 
@@ -181,12 +183,14 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 562. Longest Line of Consecutive One in Matrix | Medium
 | 568. Maximum Vacation Days | Hard | ★★
 | 576. Out of Boundary Paths | Medium | ★
+| 583. Delete Operation for Two Strings | Medium
 
 # Graph
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 399. Evaluate Division | Medium | ★★
+| 587. Erect the Fence | Hard | ★
 
 # Greedy
 
