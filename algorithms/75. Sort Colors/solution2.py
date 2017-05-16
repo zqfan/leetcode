@@ -4,12 +4,5 @@ class Solution(object):
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-        color_count = [0] * 3
-        for n in nums:
-            color_count[n] += 1
-        i = 0
-        for color, count in enumerate(color_count):
-            while count:
-                nums[i] = color
-                count -= 1
-                i += 1
+        c = collections.Counter(nums)
+        nums[:] = [0] * c[0] + [1] * c[1] + [2] * c[2]

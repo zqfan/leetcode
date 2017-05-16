@@ -40,6 +40,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 22. Generate Parentheses | Medium | ★
+| 39. Combination Sum | Medium
 | 46. Permutations | Medium
 | 77. Combinations | Medium
 | 78. Subsets | Medium
@@ -176,6 +177,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 377. Combination Sum IV | Medium | ★
 | 413. Arithmetic Slices | Medium
 | 416. Partition Equal Subset Sum | Medium
+| 474. Ones and Zeroes | Medium | ★★
 | 486. Predict the Winner | Medium | ★
 | 494. Target Sum | Medium
 | 516. Longest Palindromic Subsequence | Medium
@@ -243,6 +245,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-
 | 21. Merge Two Sorted Lists | Easy
+| 24. Swap Nodes in Pairs | Medium
 | 83. Remove Duplicates from Sorted List | Easy
 | 141. Linked List Cycle | Easy
 | 160. Intersection of Two Linked Lists | Easy | ★
@@ -375,6 +378,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 27. Remove Element | Easy
+| 75. Sort Colors | Medium
 | 125. Valid Palindrome | Easy
 | 141. Linked List Cycle | Easy
 | 167. Two Sum II - Input array is sorted | Easy
