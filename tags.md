@@ -13,11 +13,13 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 118. Pascal's Triangle | Easy
 | 119. Pascal's Triangle II | Easy
 | 121. Best Time to Buy and Sell Stock | Easy
+| 162. Find Peak Element | Medium
 | 169. Majority Element | Easy
 | 189. Rotate Array | Easy
 | 238. Product of Array Except Self | Medium | ★
 | 240. Search a 2D Matrix II | Medium
 | 283. Move Zeroes | Easy
+| 289. Game of Life | Medium | ★
 | 334. Increasing Triplet Subsequence | Medium
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 383. Ransom Note | Easy
@@ -57,6 +59,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 35. Search Insert Position | Easy
 | 69. Sqrt(x) | Easy | ★
 | 153. Find Minimum in Rotated Sorted Array | Medium
+| 162. Find Peak Element | Medium | ★
 | 167. Two Sum II - Input array is sorted | Easy
 | 240. Search a 2D Matrix II | Medium
 | 278. First Bad Version | Easy
@@ -96,6 +99,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 110. Balanced Binary Tree | Easy
 | 111. Minimum Depth of Binary Tree | Easy
 | 112. Path Sum | Easy
+| 116. Populating Next Right Pointers in Each Node | Medium
 | 144. Binary Tree Preorder Traversal | Medium
 | 199. Binary Tree Right Side View | Medium
 | 226. Invert Binary Tree | Easy
@@ -227,6 +231,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 451. Sort Characters By Frequency | Medium
 | 454. 4Sum II | Medium
 | 508. Most Frequent Subtree Sum | Medium
+| 525. Contiguous Array | Medium
 | 535. Encode and Decode TinyURL | Medium
 | 554. Brick Wall | Medium
 | 560. Subarray Sum Equals K | Medium
@@ -236,6 +241,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-
 | 215. Kth Largest Element in an Array | Medium
+| 313. Super Ugly Number | Medium | ★★
 | 347. Top K Frequent Elements | Medium | ★
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 451. Sort Characters By Frequency | Medium
@@ -280,6 +286,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 263. Ugly Number | Easy
 | 268. Missing Number | Easy
 | 292. Nim Game | Easy
+| 313. Super Ugly Number | Medium | ★★
 | 319. Bulb Switcher | Medium
 | 326. Power of Three | Easy
 | 343. Integer Break | Medium
