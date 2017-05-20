@@ -81,6 +81,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 230. Kth Smallest Element in a BST | Medium
 | 235. Lowest Common Ancestor of a Binary Search Tree | Easy
 | 449. Serialize and Deserialize BST | Medium | ★
+| 450. Delete Node in a BST | Medium
 | 501. Find Mode in Binary Search Tree | Easy | ★
 | 530. Minimum Absolute Difference in BST | Easy
 | 538. Convert BST to Greater Tree | Medium
@@ -100,10 +101,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 111. Minimum Depth of Binary Tree | Easy
 | 112. Path Sum | Easy
 | 116. Populating Next Right Pointers in Each Node | Medium
+| 129. Sum Root to Leaf Numbers | Medium
 | 144. Binary Tree Preorder Traversal | Medium
 | 199. Binary Tree Right Side View | Medium
 | 226. Invert Binary Tree | Easy
 | 257. Binary Tree Paths | Easy
+| 331. Verify Preorder Serialization of a Binary Tree | Medium | ★
 | 337. House Robber III | Medium
 | 404. Sum of Left Leaves | Easy
 | 437. Path Sum III | Easy
@@ -149,6 +152,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 279. Perfect Squares | Medium | ★
 | 394. Decode String | Medium | ★
 | 494. Target Sum | Medium | ★
 | 529. Minesweeper | Meduim
@@ -174,6 +178,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 96. Unique Binary Search Trees | Medium | ★
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
+| 279. Perfect Squares | Medium | ★★
 | 300. Longest Increasing Subsequence | Medium | ★★
 | 303. Range Sum Query - Immutable | Easy
 | 309. Best Time to Buy and Sell Stock with Cooldown | Medium | ★★
@@ -285,6 +290,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 258. Add Digits | Easy
 | 263. Ugly Number | Easy
 | 268. Missing Number | Easy
+| 279. Perfect Squares | Medium | ★★
 | 292. Nim Game | Easy
 | 313. Super Ugly Number | Medium | ★★
 | 319. Bulb Switcher | Medium
@@ -338,6 +344,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 173. Binary Search Tree Iterator | Medium
 | 225. Implement Stack using Queues | Easy | ★
 | 232. Implement Queue using Stacks | Easy
+| 331. Verify Preorder Serialization of a Binary Tree | Medium
 | 341. Flatten Nested List Iterator | Medium | ★
 | 394. Decode String | Medium | ★
 | 496. Next Greater Element I | Easy |
@@ -356,6 +363,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 242. Valid Anagram | Easy
 | 344. Reverse String | Easy |
 | 387. First Unique Character in a String | Easy
+| 388. Longest Absolute File Path | Medium
 | 409. Longest Palindrome | Easy
 | 415. Add Strings | Easy
 | 423. Reconstruct Original Digits from English | Medium
@@ -384,6 +392,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 11. Container With Most Water | Medium | ★★
 | 27. Remove Element | Easy
 | 75. Sort Colors | Medium
 | 125. Valid Palindrome | Easy

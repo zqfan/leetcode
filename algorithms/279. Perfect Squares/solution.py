@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         # refe to https://leetcode.com/discuss/56982/o-sqrt-n-in-ruby-and-c
-        while n %  4 == 0:
+        while n % 4 == 0:
             n /= 4
         if n % 8 == 7:
             return 4
