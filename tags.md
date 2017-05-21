@@ -241,6 +241,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 535. Encode and Decode TinyURL | Medium
 | 554. Brick Wall | Medium
 | 560. Subarray Sum Equals K | Medium
+| 588. Design In-Memory File System | Hard
+| 594. Longest Harmonious Subsequence | Medium
 
 # Heap
 
@@ -318,6 +320,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 535. Encode and Decode TinyURL | Medium
 | 553. Optimal Division | Medium | ★
 | 556. Next Greater Element III | Medium
+| 592. Fraction Addition and Subtraction | Medium
+| 593. Valid Square | Medium
 
 # Set
 
