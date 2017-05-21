@@ -9,6 +9,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 48. Rotate Image | Medium | ★
 | 53. Maximum Subarray | Easy
 | 59. Spiral Matrix II | Medium
+| 73. Set Matrix Zeroes | Medium | ★
 | 88. Merge Sorted Array | Easy
 | 118. Pascal's Triangle | Easy
 | 119. Pascal's Triangle II | Easy
@@ -364,6 +365,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 344. Reverse String | Easy |
 | 387. First Unique Character in a String | Easy
 | 388. Longest Absolute File Path | Medium
+| 395. Longest Substring with At Least K Repeating Characters | Medium | ★★
 | 409. Longest Palindrome | Easy
 | 415. Add Strings | Easy
 | 423. Reconstruct Original Digits from English | Medium
