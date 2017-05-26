@@ -4,24 +4,18 @@ class Solution(object):
         :type data: List[int]
         :rtype: bool
         """
-        check = 0
-        i = 0
-        while i < len(data):
-            if check:
-                if data[i] & 0xc0 != 0x80:
+        follow = 0
+        for n in data:
+            if follow != 0:
+                if n >> 6 != 0b10:
                     return False
-                check -= 1
-                i += 1
-                continue
-            if data[i] & 0x80 == 0:
-                check = 0
-            elif data[i] & 0xe0 == 0xc0:
-                check = 1
-            elif data[i] & 0xf0 == 0xe0:
-                check = 2
-            elif data[i] & 0xf8 == 0xf0:
-                check = 3
-            else:
+                follow -= 1
+            elif n >> 5 == 0b110:
+                follow = 1
+            elif n >> 4 == 0b1110:
+                follow = 2
+            elif n >> 3 == 0b11110:
+                follow = 3
+            elif n >> 7:
                 return False
-            i += 1
-        return check == 0
+        return follow == 0

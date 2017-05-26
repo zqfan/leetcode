@@ -11,6 +11,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 59. Spiral Matrix II | Medium
 | 73. Set Matrix Zeroes | Medium | ★
 | 88. Merge Sorted Array | Easy
+| 90. Subsets II | Medium
 | 118. Pascal's Triangle | Easy
 | 119. Pascal's Triangle II | Easy
 | 121. Best Time to Buy and Sell Stock | Easy
@@ -42,12 +43,14 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 17. Letter Combinations of a Phone Number | Medium
 | 22. Generate Parentheses | Medium | ★
 | 39. Combination Sum | Medium
 | 46. Permutations | Medium
 | 77. Combinations | Medium
 | 78. Subsets | Medium
 | 89. Gray Code | Medium
+| 90. Subsets II | Medium
 | 216. Combination Sum III | Medium
 | 491. Increasing Subsequences | Medium
 | 526. Beautiful Arrangement | Medium | ★
@@ -59,10 +62,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 35. Search Insert Position | Easy
 | 69. Sqrt(x) | Easy | ★
+| 74. Search a 2D Matrix | Medium
 | 153. Find Minimum in Rotated Sorted Array | Medium
 | 162. Find Peak Element | Medium | ★
 | 167. Two Sum II - Input array is sorted | Easy
 | 240. Search a 2D Matrix II | Medium
+| 275. H-Index II | Medium | ★
 | 278. First Bad Version | Easy
 | 287. Find the Duplicate Number | Medium | ★
 | 300. Longest Increasing Subsequence | Medium | ★★
@@ -101,6 +106,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 110. Balanced Binary Tree | Easy
 | 111. Minimum Depth of Binary Tree | Easy
 | 112. Path Sum | Easy
+| 114. Flatten Binary Tree to Linked List | Medium
 | 116. Populating Next Right Pointers in Each Node | Medium
 | 129. Sum Root to Leaf Numbers | Medium
 | 144. Binary Tree Preorder Traversal | Medium
@@ -136,6 +142,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 342. Power of Four | Easy
 | 371. Sum of Two Integers | Easy
 | 389. Find the Difference | Easy
+| 393. UTF-8 Validation | Medium
 | 401. Binary Watch | Easy
 | 405. Convert a Number to Hexadecimal | Easy
 | 421. Maximum XOR of Two Numbers in an Array | Medium | ★
@@ -155,10 +162,17 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 279. Perfect Squares | Medium | ★
 | 394. Decode String | Medium | ★
+| 473. Matchsticks to Square | Medium | ★★
 | 494. Target Sum | Medium | ★
 | 529. Minesweeper | Meduim
 | 547. Friend Circles | Medium
 | 582. Kill Process | Medium
+
+# Design
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 284. Peeking Iterator | Medium
 
 # Divide and Conquer
 
@@ -209,6 +223,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 122. Best Time to Buy and Sell Stock II | Easy
+| 376. Wiggle Subsequence | Medium
 | 392. Is Subsequence | Medium
 | 406. Queue Reconstruction by Height | Medium | ★
 | 452. Minimum Number of Arrows to Burst Balloons | Medium
@@ -219,13 +234,16 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 1. Two Sum | Easy
+| 36. Valid Sudoku | Medium | ★
 | 136. Single Number | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 169. Majority Element | Easy
 | 202. Happy Number | Easy
 | 205. Isomorphic Strings | Easy
 | 219. Contains Duplicate II | Easy
+| 274. H-Index | Medium
 | 290. Word Pattern | Easy | ★
+| 299. Bulls and Cows | Medium
 | 350. Intersection of Two Arrays II | Easy
 | 380. Insert Delete GetRandom O(1) | Medium | ★
 | 383. Ransom Note | Easy
@@ -301,6 +319,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 343. Integer Break | Medium
 | 357. Count Numbers with Unique Digits | Medium
 | 367. Valid Perfect Square | Easy
+| 372. Super Pow | Medium
 | 382. Linked List Random Node | Medium
 | 384. Shuffle an Array | Medium
 | 386. Lexicographical Numbers | Medium | ★
@@ -360,6 +379,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 14. Longest Common Prefix | Easy
+| 17. Letter Combinations of a Phone Number | Medium
 | 28. Implement strStr() | Easy
 | 38. Count and Say | Easy
 | 58. Length of Last Word | Easy
