@@ -4,28 +4,21 @@ class Solution(object):
         :type grid: List[List[str]]
         :rtype: int
         """
-        if not grid:
-            return 0
-
-        dirs = [(-1,0),(0,1),(1,0),(0,-1)]
-        r = len(grid); c = len(grid[0])
-        flag = [[0] * c for i in xrange(r)]
-        for i in xrange(r):
-            for j in xrange(c):
-                flag[i][j] = int(grid[i][j])
-
         def dfs(i, j):
-            flag[i][j] = 0
-            for d in dirs:
-                x = i + d[0]; y = j + d[1]
-                if 0 <= x < r and 0 <= y < c and flag[x][y]:
-                    dfs(x, y)
+            if i < 0 or i >= m or j < 0 or j >= n:
+                return
+            if visited[i][j] or grid[i][j] == '0':
+                return
+            visited[i][j] = 1
+            for dx, dy in [[-1, 0], [0, 1], [1, 0], [0, -1]]:
+                dfs(i + dx, j + dy)
 
+        m, n = len(grid), len(grid[0]) if grid else 0
+        visited = [[0] * n for i in xrange(m)]
         islands = 0
-        for i in xrange(r):
-            for j in xrange(c):
-                if flag[i][j]:
-                    islands += 1
+        for i in xrange(m):
+            for j in xrange(n):
+                if grid[i][j] == '1' and not visited[i][j]:
                     dfs(i, j)
-
+                    islands += 1
         return islands

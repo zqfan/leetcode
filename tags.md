@@ -100,6 +100,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 100. Same Tree | Easy
 | 101. Symmetric Tree | Easy
 | 102. Binary Tree Level Order Traversal | Medium
+| 103. Binary Tree Zigzag Level Order Traversal | Medium
 | 104. Maximum Depth of Binary Tree | Easy
 | 107. Binary Tree Level Order Traversal II | Easy
 | 108. Convert Sorted Array to Binary Search Tree | Easy
@@ -108,6 +109,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 112. Path Sum | Easy
 | 114. Flatten Binary Tree to Linked List | Medium
 | 116. Populating Next Right Pointers in Each Node | Medium
+| 117. Populating Next Right Pointers in Each Node II | Medium
 | 129. Sum Root to Leaf Numbers | Medium
 | 144. Binary Tree Preorder Traversal | Medium
 | 199. Binary Tree Right Side View | Medium
@@ -135,6 +137,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 137. Single Number II | Medium
 | 190. Reverse Bits | Easy | ★
 | 191. Number of 1 Bits | Easy
+| 201. Bitwise AND of Numbers Range | Medium
 | 260. Single Number III | Medium | ★
 | 268. Missing Number | Easy
 | 318. Maximum Product of Word Lengths | Medium
@@ -160,6 +163,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 200. Number of Islands | Medium
 | 279. Perfect Squares | Medium | ★
 | 394. Decode String | Medium | ★
 | 473. Matchsticks to Square | Medium | ★★
@@ -193,6 +197,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 96. Unique Binary Search Trees | Medium | ★
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
+| 213. House Robber II | Medium
 | 279. Perfect Squares | Medium | ★★
 | 300. Longest Increasing Subsequence | Medium | ★★
 | 303. Range Sum Query - Immutable | Easy
@@ -364,6 +369,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 20. Valid Parentheses | Easy
+| 103. Binary Tree Zigzag Level Order Traversal | Medium
 | 155. Min Stack | Easy
 | 173. Binary Search Tree Iterator | Medium
 | 225. Implement Stack using Queues | Easy | ★
@@ -437,6 +443,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 200. Number of Islands | Medium | ★
 | 547. Friend Circles | Medium | ★
 | 399. Evaluate Division | Medium | ★★
 
