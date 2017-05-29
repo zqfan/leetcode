@@ -38,6 +38,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 566. Reshape the Matrix | Easy
 | 573. Squirrel Simulation | Medium
 | 581. Shortest Unsorted Continuous Subarray | Easy
+| 565. Array Nesting | Medium
 
 # Backtracking
 
@@ -215,6 +216,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 568. Maximum Vacation Days | Hard | ★★
 | 576. Out of Boundary Paths | Medium | ★
 | 583. Delete Operation for Two Strings | Medium
+| 600. Non-negative Integers without Consecutive Ones | Hard | ★
 
 # Graph
 
@@ -266,6 +268,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 560. Subarray Sum Equals K | Medium
 | 588. Design In-Memory File System | Hard
 | 594. Longest Harmonious Subsequence | Medium
+| 599. Minimum Index Sum of Two Lists | Easy
 
 # Heap
 
@@ -346,6 +349,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 556. Next Greater Element III | Medium
 | 592. Fraction Addition and Subtraction | Medium
 | 593. Valid Square | Medium
+| 598. Range Addition II | Easy
 
 # Set
 
