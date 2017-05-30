@@ -85,6 +85,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 109. Convert Sorted List to Binary Search Tree | Medium | ★
 | 230. Kth Smallest Element in a BST | Medium
 | 235. Lowest Common Ancestor of a Binary Search Tree | Easy
 | 449. Serialize and Deserialize BST | Medium | ★
@@ -196,6 +197,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 64. Minimum Path Sum | Medium
 | 70. Climbing Stairs | Easy
 | 96. Unique Binary Search Trees | Medium | ★
+| 120. Triangle | Medium
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
 | 213. House Robber II | Medium
@@ -204,6 +206,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 303. Range Sum Query - Immutable | Easy
 | 309. Best Time to Buy and Sell Stock with Cooldown | Medium | ★★
 | 343. Integer Break | Medium
+| 368. Largest Divisible Subset | Medium | ★
 | 377. Combination Sum IV | Medium | ★
 | 413. Arithmetic Slices | Medium
 | 416. Partition Equal Subset Sum | Medium
@@ -242,6 +245,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 1. Two Sum | Easy
 | 36. Valid Sudoku | Medium | ★
+| 49. Group Anagrams | Medium
 | 136. Single Number | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 169. Majority Element | Easy
@@ -392,6 +396,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 17. Letter Combinations of a Phone Number | Medium
 | 28. Implement strStr() | Easy
 | 38. Count and Say | Easy
+| 49. Group Anagrams | Medium
 | 58. Length of Last Word | Easy
 | 67. Add Binary | Easy
 | 125. Valid Palindrome | Easy
