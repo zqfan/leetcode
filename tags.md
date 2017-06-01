@@ -61,9 +61,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 33. Search in Rotated Sorted Array | Medium | ★
 | 35. Search Insert Position | Easy
 | 69. Sqrt(x) | Easy | ★
 | 74. Search a 2D Matrix | Medium
+| 81. Search in Rotated Sorted Array II | Medium | ★
 | 153. Find Minimum in Rotated Sorted Array | Medium
 | 162. Find Peak Element | Medium | ★
 | 167. Two Sum II - Input array is sorted | Easy
@@ -109,6 +111,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 110. Balanced Binary Tree | Easy
 | 111. Minimum Depth of Binary Tree | Easy
 | 112. Path Sum | Easy
+| 113. Path Sum II | Medium
 | 114. Flatten Binary Tree to Linked List | Medium
 | 116. Populating Next Right Pointers in Each Node | Medium
 | 117. Populating Next Right Pointers in Each Node II | Medium
@@ -168,9 +171,11 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 200. Number of Islands | Medium
 | 279. Perfect Squares | Medium | ★
 | 394. Decode String | Medium | ★
+| 417. Pacific Atlantic Water Flow | Medium
 | 473. Matchsticks to Square | Medium | ★★
 | 494. Target Sum | Medium | ★
 | 529. Minesweeper | Meduim
+| 542. 01 Matrix | Medium
 | 547. Friend Circles | Medium
 | 582. Kill Process | Medium
 
@@ -288,6 +293,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-
+| 19. Remove Nth Node From End of List | Medium
 | 21. Merge Two Sorted Lists | Easy
 | 24. Swap Nodes in Pairs | Medium
 | 83. Remove Duplicates from Sorted List | Easy
@@ -434,6 +440,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 11. Container With Most Water | Medium | ★★
+| 19. Remove Nth Node From End of List | Medium
 | 27. Remove Element | Easy
 | 75. Sort Colors | Medium
 | 125. Valid Palindrome | Easy
