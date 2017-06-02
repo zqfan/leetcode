@@ -47,11 +47,13 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 17. Letter Combinations of a Phone Number | Medium
 | 22. Generate Parentheses | Medium | ★
 | 39. Combination Sum | Medium
+| 40. Combination Sum II | Medium
 | 46. Permutations | Medium
 | 77. Combinations | Medium
 | 78. Subsets | Medium
 | 89. Gray Code | Medium
 | 90. Subsets II | Medium
+| 131. Palindrome Partitioning | Medium
 | 216. Combination Sum III | Medium
 | 491. Increasing Subsequences | Medium
 | 526. Beautiful Arrangement | Medium | ★
@@ -298,6 +300,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 24. Swap Nodes in Pairs | Medium
 | 83. Remove Duplicates from Sorted List | Easy
 | 141. Linked List Cycle | Easy
+| 147. Insertion Sort List | Medium
 | 160. Intersection of Two Linked Lists | Easy | ★
 | 203. Remove Linked List Elements | Easy
 | 206. Reverse Linked List | Easy
@@ -325,6 +328,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 171. Excel Sheet Column Number | Easy
 | 172. Factorial Trailing Zeroes | Easy
 | 204. Count Primes | Easy | ★
+| 223. Rectangle Area | Medium
 | 231. Power of Two | Easy
 | 258. Add Digits | Easy
 | 263. Ugly Number | Easy
