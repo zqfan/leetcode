@@ -49,6 +49,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 39. Combination Sum | Medium
 | 40. Combination Sum II | Medium
 | 46. Permutations | Medium
+| 47. Permutations II | Medium | ★
 | 77. Combinations | Medium
 | 78. Subsets | Medium
 | 89. Gray Code | Medium
@@ -208,6 +209,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 198. House Robber | Easy
 | 204. Count Primes | Easy | ★
 | 213. House Robber II | Medium
+| 264. Ugly Number II | Medium
 | 279. Perfect Squares | Medium | ★★
 | 300. Longest Increasing Subsequence | Medium | ★★
 | 303. Range Sum Query - Immutable | Easy
@@ -286,6 +288,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-
 | 215. Kth Largest Element in an Array | Medium
+| 264. Ugly Number II | Medium
 | 313. Super Ugly Number | Medium | ★★
 | 347. Top K Frequent Elements | Medium | ★
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
@@ -299,6 +302,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 21. Merge Two Sorted Lists | Easy
 | 24. Swap Nodes in Pairs | Medium
 | 83. Remove Duplicates from Sorted List | Easy
+| 86. Partition List | Medium
 | 141. Linked List Cycle | Easy
 | 147. Insertion Sort List | Medium
 | 160. Intersection of Two Linked Lists | Easy | ★
@@ -347,6 +351,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 386. Lexicographical Numbers | Medium | ★
 | 389. Find the Difference | Easy
 | 390. Elimination Game | Medium
+| 396. Rotate Function | Medium
 | 398. Random Pick Index | Medium
 | 400. Nth Digit | Easy
 | 412. Fizz Buzz | Easy |
@@ -447,6 +452,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 19. Remove Nth Node From End of List | Medium
 | 27. Remove Element | Easy
 | 75. Sort Colors | Medium
+| 86. Partition List | Medium
 | 125. Valid Palindrome | Easy
 | 141. Linked List Cycle | Easy
 | 167. Two Sum II - Input array is sorted | Easy
