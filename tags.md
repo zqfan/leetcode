@@ -39,6 +39,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 573. Squirrel Simulation | Medium
 | 581. Shortest Unsorted Continuous Subarray | Easy
 | 565. Array Nesting | Medium
+| 605. Can Place Flowers | Easy
 
 # Backtracking
 
@@ -135,6 +136,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 549. Binary Tree Longest Consecutive Sequence II | Medium | ★
 | 563. Binary Tree Tilt | Easy
 | 572. Subtree of Another Tree | Easy
+| 606. Construct String from Binary Tree | Easy
 
 # Bit Manipulation
 
@@ -282,6 +284,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 588. Design In-Memory File System | Hard
 | 594. Longest Harmonious Subsequence | Medium
 | 599. Minimum Index Sum of Two Lists | Easy
+| 609. Find Duplicate File in System | Medium
 
 # Heap
 
@@ -437,6 +440,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 555. Split Assembled Strings | Hard | ★
 | 557. Reverse Words in a String III | Easy
 | 564. Find the Closest Palindrome | Hard | ★
+| 591. Tag Validator | Hard | ★
 
 # Trie
 
