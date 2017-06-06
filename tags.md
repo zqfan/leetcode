@@ -110,6 +110,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 102. Binary Tree Level Order Traversal | Medium
 | 103. Binary Tree Zigzag Level Order Traversal | Medium
 | 104. Maximum Depth of Binary Tree | Easy
+| 105. Construct Binary Tree from Preorder and Inorder Traversal | Medium
+| 106. Construct Binary Tree from Inorder and Postorder Traversal | Medium
 | 107. Binary Tree Level Order Traversal II | Easy
 | 108. Convert Sorted Array to Binary Search Tree | Easy
 | 110. Balanced Binary Tree | Easy
@@ -221,6 +223,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 377. Combination Sum IV | Medium | ★
 | 413. Arithmetic Slices | Medium
 | 416. Partition Equal Subset Sum | Medium
+| 467. Unique Substrings in Wraparound String | Medium
 | 474. Ones and Zeroes | Medium | ★★
 | 486. Predict the Winner | Medium | ★
 | 494. Target Sum | Medium
