@@ -66,6 +66,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 33. Search in Rotated Sorted Array | Medium | ★
+| 34. Search for a Range | Medium
 | 35. Search Insert Position | Easy
 | 69. Sqrt(x) | Easy | ★
 | 74. Search a 2D Matrix | Medium
@@ -91,6 +92,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 95. Unique Binary Search Trees II | Medium | ★
 | 109. Convert Sorted List to Binary Search Tree | Medium | ★
 | 230. Kth Smallest Element in a BST | Medium
 | 235. Lowest Common Ancestor of a Binary Search Tree | Easy
@@ -176,6 +178,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 200. Number of Islands | Medium
+| 207. Course Schedule | Medium
 | 279. Perfect Squares | Medium | ★
 | 394. Decode String | Medium | ★
 | 417. Pacific Atlantic Water Flow | Medium
@@ -206,8 +209,10 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 62. Unique Paths | Medium
+| 63. Unique Paths II | Medium
 | 64. Minimum Path Sum | Medium
 | 70. Climbing Stairs | Easy
+| 95. Unique Binary Search Trees II | Medium | ★
 | 96. Unique Binary Search Trees | Medium | ★
 | 120. Triangle | Medium
 | 198. House Robber | Easy
@@ -239,6 +244,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 207. Course Schedule | Medium
 | 399. Evaluate Division | Medium | ★★
 | 587. Erect the Fence | Hard | ★
 
@@ -310,6 +316,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 83. Remove Duplicates from Sorted List | Easy
 | 86. Partition List | Medium
 | 141. Linked List Cycle | Easy
+| 142. Linked List Cycle II | Medium
 | 147. Insertion Sort List | Medium
 | 160. Intersection of Two Linked Lists | Easy | ★
 | 203. Remove Linked List Elements | Easy
@@ -445,6 +452,12 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 564. Find the Closest Palindrome | Hard | ★
 | 591. Tag Validator | Hard | ★
 
+# Topological Sort
+
+| Problem | Difficulty | Stars |
+|:-|:-|:-|
+| 207. Course Schedule | Medium
+
 # Trie
 
 | Problem | Difficulty | Stars |
@@ -462,6 +475,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 86. Partition List | Medium
 | 125. Valid Palindrome | Easy
 | 141. Linked List Cycle | Easy
+| 142. Linked List Cycle II | Medium
 | 167. Two Sum II - Input array is sorted | Easy
 | 202. Happy Number | Easy
 | 234. Palindrome Linked List | Easy | ★
