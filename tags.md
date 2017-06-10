@@ -149,6 +149,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 78. Subsets | Medium | ★
 | 136. Single Number | Easy
 | 137. Single Number II | Medium
+| 187. Repeated DNA Sequences | Medium | ★
 | 190. Reverse Bits | Easy | ★
 | 191. Number of 1 Bits | Easy
 | 201. Bitwise AND of Numbers Range | Medium
@@ -269,6 +270,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 136. Single Number | Easy
 | 167. Two Sum II - Input array is sorted | Easy
 | 169. Majority Element | Easy
+| 187. Repeated DNA Sequences | Medium
 | 202. Happy Number | Easy
 | 205. Isomorphic Strings | Easy
 | 219. Contains Duplicate II | Easy
@@ -303,6 +305,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 264. Ugly Number II | Medium
 | 313. Super Ugly Number | Medium | ★★
 | 347. Top K Frequent Elements | Medium | ★
+| 373. Find K Pairs with Smallest Sums | Medium | ★
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 451. Sort Characters By Frequency | Medium
 
@@ -315,6 +318,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 24. Swap Nodes in Pairs | Medium
 | 83. Remove Duplicates from Sorted List | Easy
 | 86. Partition List | Medium
+| 92. Reverse Linked List II | Medium
 | 141. Linked List Cycle | Easy
 | 142. Linked List Cycle II | Medium
 | 147. Insertion Sort List | Medium
@@ -469,6 +473,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 11. Container With Most Water | Medium | ★★
+| 16. 3Sum Closest | Medium
 | 19. Remove Nth Node From End of List | Medium
 | 27. Remove Element | Easy
 | 75. Sort Colors | Medium

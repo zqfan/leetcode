@@ -4,12 +4,12 @@ class Solution(object):
         :type s: str
         :rtype: List[str]
         """
-        res = set()
-        slices = set()
-        for i in xrange(len(s)-9):
-            ss = s[i:i+10]
-            if ss in slices:
-                res.add(ss)
-            else:
-                slices.add(ss)
-        return list(res)
+        counter = collections.defaultdict(int)
+        for i in xrange(10, len(s) + 1):
+            counter[s[i-10:i]] += 1
+        return [ss for ss in counter if counter[ss] > 1]
+
+# 32 / 32 test cases passed.
+# Status: Accepted
+# Runtime: 155 ms
+# beats 63.38 %

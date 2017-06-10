@@ -6,19 +6,22 @@ class Solution(object):
         :type k: int
         :rtype: List[List[int]]
         """
-        if not nums1 or not nums2 or k < 1:
+        if not nums1 or not nums2 or k <= 0:
             return []
 
-        heap = []
-        for i in xrange(len(nums1)):
-            heap.append((nums1[i]+nums2[0], i, 0))
+        heap = [[nums1[i] + nums2[0], i, 0] for i in xrange(len(nums1))]
         heapq.heapify(heap)
 
-        res = []
-        while k > 0 and len(heap) > 0:
-            s, i1, i2 = heapq.heappop(heap)
-            res.append([nums1[i1], nums2[i2]])
-            if i2+1 < len(nums2):
-                heapq.heappush(heap, (nums1[i1]+nums2[i2+1], i1, i2+1))
-            k -= 1
-        return res
+        result = []
+        for _ in xrange(min(k, len(nums1) * len(nums2))):
+            s, i, j = heapq.heappop(heap)
+            result.append([nums1[i], nums2[j]])
+            if j + 1 < len(nums2):
+                heapq.heappush(heap, [nums1[i] + nums2[j + 1], i, j + 1])
+
+        return result
+
+# 27 / 27 test cases passed.
+# Status: Accepted
+# Runtime: 86 ms
+# beats 85.71 %
