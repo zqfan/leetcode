@@ -141,6 +141,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 563. Binary Tree Tilt | Easy
 | 572. Subtree of Another Tree | Easy
 | 606. Construct String from Binary Tree | Easy
+| 617. Merge Two Binary Trees | Easy
 
 # Bit Manipulation
 
@@ -195,6 +196,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 284. Peeking Iterator | Medium
+| 604. Design Compressed String Iterator | Easy
 
 # Divide and Conquer
 
@@ -455,6 +457,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 557. Reverse Words in a String III | Easy
 | 564. Find the Closest Palindrome | Hard | ★
 | 591. Tag Validator | Hard | ★
+| 604. Design Compressed String Iterator | Easy
+| 616. Add Bold Tag in String | Medium | ★
 
 # Topological Sort
 
@@ -490,6 +494,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 383. Ransom Note | Easy
 | 475. Heaters | Easy | ★
 | 524. Longest Word in Dictionary through Deleting | Medium
+| 611. Valid Triangle Number | Medium
 
 # Union Find
 
