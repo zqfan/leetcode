@@ -42,10 +42,22 @@
 #        """
 
 class Solution(object):
-    # @StefanPochmann
-    deserialize = eval
+    def deserialize(self, s):
+        """
+        :type s: str
+        :rtype: NestedInteger
+        """
+        # @StefanPochmann
+        def genNestedInteger(x):
+            if isinstance(x, int):
+                return NestedInteger(x)
+            ni = NestedInteger()
+            for y in x:
+                ni.add(genNestedInteger(y))
+            return ni
+        return genNestedInteger(eval(s))
 
 # 57 / 57 test cases passed.
 # Status: Accepted
-# Runtime: 142 ms
-# beats 83.43 %
+# Runtime: 235 ms
+# beats 18.34 %

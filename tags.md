@@ -162,6 +162,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 371. Sum of Two Integers | Easy
 | 389. Find the Difference | Easy
 | 393. UTF-8 Validation | Medium
+| 397. Integer Replacement | Medium | ★
 | 401. Binary Watch | Easy
 | 405. Convert a Number to Hexadecimal | Easy
 | 421. Maximum XOR of Two Numbers in an Array | Medium | ★
@@ -371,6 +372,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 389. Find the Difference | Easy
 | 390. Elimination Game | Medium
 | 396. Rotate Function | Medium
+| 397. Integer Replacement | Medium | ★
 | 398. Random Pick Index | Medium
 | 400. Nth Digit | Easy
 | 412. Fizz Buzz | Easy |
@@ -418,6 +420,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 232. Implement Queue using Stacks | Easy
 | 331. Verify Preorder Serialization of a Binary Tree | Medium
 | 341. Flatten Nested List Iterator | Medium | ★
+| 385. Mini Parser | Medium
 | 394. Decode String | Medium | ★
 | 496. Next Greater Element I | Easy |
 | 503. Next Greater Element II | Medium | ★
@@ -436,6 +439,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 125. Valid Palindrome | Easy
 | 242. Valid Anagram | Easy
 | 344. Reverse String | Easy |
+| 385. Mini Parser | Medium
 | 387. First Unique Character in a String | Easy
 | 388. Longest Absolute File Path | Medium
 | 395. Longest Substring with At Least K Repeating Characters | Medium | ★★
@@ -449,6 +453,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 500. Keyboard Row | Easy |
 | 520. Detect Capital | Easy
 | 521. Longest Uncommon Subsequence I | Easy
+| 522. Longest Uncommon Subsequence II | Medium
 | 524. Longest Word in Dictionary through Deleting | Medium
 | 537. Complex Number Multiplication | Medium
 | 539. Minimum Time Difference | Medium
@@ -487,6 +492,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 142. Linked List Cycle II | Medium
 | 167. Two Sum II - Input array is sorted | Easy
 | 202. Happy Number | Easy
+| 209. Minimum Size Subarray Sum | Medium
 | 234. Palindrome Linked List | Easy | ★
 | 287. Find the Duplicate Number | Medium | ★
 | 345. Reverse Vowels of a String | Easy

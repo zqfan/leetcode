@@ -42,10 +42,30 @@
 #        """
 
 class Solution(object):
-    # @StefanPochmann
-    deserialize = eval
+    def deserialize(self, s):
+        """
+        :type s: str
+        :rtype: NestedInteger
+        """
+        # @StefanPochmann
+        def genNestedInteger():
+            num = ''
+            while s[-1] in '0123456789-':
+                num += s.pop()
+            if num:
+                return NestedInteger(int(num))
+            s.pop()
+            ni = NestedInteger()
+            while s[-1] != ']':
+                ni.add(genNestedInteger())
+                if s[-1] == ',':
+                    s.pop()
+            s.pop()
+            return ni
+        s = list(' ' + s[::-1])
+        return genNestedInteger()
 
 # 57 / 57 test cases passed.
 # Status: Accepted
-# Runtime: 142 ms
-# beats 83.43 %
+# Runtime: 192 ms
+# beats 57.40 %

@@ -42,10 +42,37 @@
 #        """
 
 class Solution(object):
-    # @StefanPochmann
-    deserialize = eval
+    def deserialize(self, s):
+        """
+        :type s: str
+        :rtype: NestedInteger
+        """
+        if not s:
+            return None
+        if s.find('[') == -1:
+            return NestedInteger(int(s))
 
-# 57 / 57 test cases passed.
-# Status: Accepted
-# Runtime: 142 ms
-# beats 83.43 %
+        last = None
+        n = 0; pos = 1; is_integer = 0
+        stack = [NestedInteger()]
+        i = 1; l = len(s)
+        while i < l:
+            if s[i] == '-':
+                pos = -1
+            elif s[i].isdigit():
+                is_integer = 1
+                n = n * 10 + int(s[i])
+            elif s[i] == ',' and is_integer:
+                stack[-1].add(NestedInteger(n*pos))
+                n = 0; is_integer = 0; pos = 1
+            elif s[i] == ']':
+                if is_integer:
+                    stack[-1].add(NestedInteger(n*pos))
+                    n = 0; is_integer = 0; pos = 1
+                last = stack.pop()
+                if stack:
+                    stack[-1].add(last)
+            elif s[i] == '[':
+                stack.append(NestedInteger())
+            i += 1
+        return last

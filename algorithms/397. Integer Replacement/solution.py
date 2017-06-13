@@ -4,23 +4,13 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if n < 2:
-            return 0
-        step = 0
-        while n > 3:
-            if n % 2 == 0:
-                n = n / 2
+        count = 0
+        while n > 1:
+            if n & 1 == 0:
+                n /= 2
+            elif n % 4 == 1 or n == 3:
+                n -= 1
             else:
-                if (n + 1) % 4 == 0:
-                    n += 1
-                else:
-                    n -= 1
-            step += 1
-        return step + (n - 1)
-
-
-# test
-s = Solution().integerReplacement
-assert 3 == s(8)
-assert 4 == s(7)
-assert 31 == s(100000000)
+                n += 1
+            count += 1
+        return count
