@@ -8,6 +8,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 27. Remove Element | Easy
 | 48. Rotate Image | Medium | ★
 | 53. Maximum Subarray | Easy
+| 55. Jump Game | Medium
+| 56. Merge Intervals | Medium
 | 59. Spiral Matrix II | Medium
 | 73. Set Matrix Zeroes | Medium | ★
 | 88. Merge Sorted Array | Easy
@@ -127,6 +129,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 144. Binary Tree Preorder Traversal | Medium
 | 199. Binary Tree Right Side View | Medium
 | 226. Invert Binary Tree | Easy
+| 236. Lowest Common Ancestor of a Binary Tree | Medium | ★
 | 257. Binary Tree Paths | Easy
 | 331. Verify Preorder Serialization of a Binary Tree | Medium | ★
 | 337. House Robber III | Medium
@@ -256,6 +259,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 55. Jump Game | Medium
 | 122. Best Time to Buy and Sell Stock II | Easy
 | 376. Wiggle Subsequence | Medium
 | 392. Is Subsequence | Medium
@@ -268,6 +272,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 1. Two Sum | Easy
+| 3. Longest Substring Without Repeating Characters | Medium
 | 36. Valid Sudoku | Medium | ★
 | 49. Group Anagrams | Medium
 | 136. Single Number | Easy
@@ -316,6 +321,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-
+| 2. Add Two Numbers | Medium
 | 19. Remove Nth Node From End of List | Medium
 | 21. Merge Two Sorted Lists | Easy
 | 24. Swap Nodes in Pairs | Medium
@@ -429,6 +435,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 3. Longest Substring Without Repeating Characters | Medium
 | 14. Longest Common Prefix | Easy
 | 17. Letter Combinations of a Phone Number | Medium
 | 28. Implement strStr() | Easy
@@ -481,6 +488,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 3. Longest Substring Without Repeating Characters | Medium
 | 11. Container With Most Water | Medium | ★★
 | 16. 3Sum Closest | Medium
 | 19. Remove Nth Node From End of List | Medium
