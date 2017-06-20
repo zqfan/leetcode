@@ -42,6 +42,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 581. Shortest Unsorted Continuous Subarray | Easy
 | 565. Array Nesting | Medium
 | 605. Can Place Flowers | Easy
+| 621. Task Scheduler | Medium
+| 624. Maximum Distance in Arrays | Easy
 
 # Backtracking
 
@@ -145,6 +147,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 572. Subtree of Another Tree | Easy
 | 606. Construct String from Binary Tree | Easy
 | 617. Merge Two Binary Trees | Easy
+| 623. Add One Row to Tree | Medium
 
 # Bit Manipulation
 
@@ -266,6 +269,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 406. Queue Reconstruction by Height | Medium | ★
 | 452. Minimum Number of Arrows to Burst Balloons | Medium
 | 455. Assign Cookies | Easy
+| 621. Task Scheduler | Medium
 
 # Hash Table
 
@@ -396,6 +400,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 592. Fraction Addition and Subtraction | Medium
 | 593. Valid Square | Medium
 | 598. Range Addition II | Easy
+| 625. Minimum Factorization | Medium
 
 # Set
 
