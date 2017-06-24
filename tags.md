@@ -69,6 +69,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 4. Median of Two Sorted Arrays | Hard | ★★
 | 33. Search in Rotated Sorted Array | Medium | ★
 | 34. Search for a Range | Medium
 | 35. Search Insert Position | Easy
@@ -209,6 +210,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
+| 4. Median of Two Sorted Arrays | Hard | ★★
 | 53. Maximum Subarray | Easy
 | 215. Kth Largest Element in an Array | Medium | ★
 | 240. Search a 2D Matrix II | Medium | ★
@@ -441,6 +443,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 3. Longest Substring Without Repeating Characters | Medium
+| 5. Longest Palindromic Substring | Medium
+| 6. ZigZag Conversion | Medium | ★
 | 14. Longest Common Prefix | Easy
 | 17. Letter Combinations of a Phone Number | Medium
 | 28. Implement strStr() | Easy
