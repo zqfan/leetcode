@@ -44,6 +44,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 605. Can Place Flowers | Easy
 | 621. Task Scheduler | Medium
 | 624. Maximum Distance in Arrays | Easy
+| 628. Maximum Product of Three Numbers | Easy
 
 # Backtracking
 
@@ -205,6 +206,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 284. Peeking Iterator | Medium
 | 604. Design Compressed String Iterator | Easy
+| 631. Design Excel Sum Formula | Hard
 
 # Divide and Conquer
 
@@ -251,6 +253,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 576. Out of Boundary Paths | Medium | ★
 | 583. Delete Operation for Two Strings | Medium
 | 600. Non-negative Integers without Consecutive Ones | Hard | ★
+| 629. K Inverse Pairs Array | Medium | ★
 
 # Graph
 
@@ -272,6 +275,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 452. Minimum Number of Arrows to Burst Balloons | Medium
 | 455. Assign Cookies | Easy
 | 621. Task Scheduler | Medium
+| 630. Course Schedule III | Medium | ★★
 
 # Hash Table
 
@@ -403,6 +407,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 593. Valid Square | Medium
 | 598. Range Addition II | Easy
 | 625. Minimum Factorization | Medium
+| 628. Maximum Product of Three Numbers | Easy
 
 # Set
 
