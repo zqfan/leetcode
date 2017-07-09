@@ -207,6 +207,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 284. Peeking Iterator | Medium
 | 604. Design Compressed String Iterator | Easy
 | 631. Design Excel Sum Formula | Hard
+| 635. Design Log Storage System | Medium
 
 # Divide and Conquer
 
@@ -314,6 +315,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 594. Longest Harmonious Subsequence | Medium
 | 599. Minimum Index Sum of Two Lists | Easy
 | 609. Find Duplicate File in System | Medium
+| 632. Smallest Range | Hard | ★★
 
 # Heap
 
@@ -408,6 +410,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 598. Range Addition II | Easy
 | 625. Minimum Factorization | Medium
 | 628. Maximum Product of Three Numbers | Easy
+| 633. Sum of Square Numbers | Easy
+| 634. Find the Derangement of An Array | Medium | ★
 
 # Set
 
@@ -485,6 +489,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 591. Tag Validator | Hard | ★
 | 604. Design Compressed String Iterator | Easy
 | 616. Add Bold Tag in String | Medium | ★
+| 635. Design Log Storage System | Medium
 
 # Topological Sort
 
@@ -523,6 +528,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 475. Heaters | Easy | ★
 | 524. Longest Word in Dictionary through Deleting | Medium
 | 611. Valid Triangle Number | Medium
+| 632. Smallest Range | Hard | ★★
 
 # Union Find
 
