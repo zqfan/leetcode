@@ -150,6 +150,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 606. Construct String from Binary Tree | Easy
 | 617. Merge Two Binary Trees | Easy
 | 623. Add One Row to Tree | Medium
+| 637. Average of Levels in Binary Tree | Easy
 
 # Bit Manipulation
 
@@ -199,6 +200,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 542. 01 Matrix | Medium
 | 547. Friend Circles | Medium
 | 582. Kill Process | Medium
+| 638. Shopping Offers | Hard | ★
 
 # Design
 
@@ -255,6 +257,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 583. Delete Operation for Two Strings | Medium
 | 600. Non-negative Integers without Consecutive Ones | Hard | ★
 | 629. K Inverse Pairs Array | Medium | ★
+| 638. Shopping Offers | Hard | ★
+| 639. Decode Ways II | Hard
 
 # Graph
 
@@ -412,6 +416,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 628. Maximum Product of Three Numbers | Easy
 | 633. Sum of Square Numbers | Easy
 | 634. Find the Derangement of An Array | Medium | ★
+| 640. Solve the Equation | Medium
 
 # Set
 
@@ -490,6 +495,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 604. Design Compressed String Iterator | Easy
 | 616. Add Bold Tag in String | Medium | ★
 | 635. Design Log Storage System | Medium
+| 640. Solve the Equation | Medium
 
 # Topological Sort
 
