@@ -45,6 +45,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 621. Task Scheduler | Medium
 | 624. Maximum Distance in Arrays | Easy
 | 628. Maximum Product of Three Numbers | Easy
+| 643. Maximum Average Subarray I | Easy
 
 # Backtracking
 
@@ -451,6 +452,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 394. Decode String | Medium | ★
 | 496. Next Greater Element I | Easy |
 | 503. Next Greater Element II | Medium | ★
+| 636. Exclusive Time of Functions | Medium
 
 # String
 
