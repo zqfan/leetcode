@@ -260,6 +260,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 629. K Inverse Pairs Array | Medium | ★
 | 638. Shopping Offers | Hard | ★
 | 639. Decode Ways II | Hard
+| 646. Maximum Length of Pair Chain | Medium
+| 647. Palindromic Substrings | Medium
 
 # Graph
 
@@ -321,6 +323,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 599. Minimum Index Sum of Two Lists | Easy
 | 609. Find Duplicate File in System | Medium
 | 632. Smallest Range | Hard | ★★
+| 645. Set Mismatch | Easy
+| 648. Replace Words | Hard
 
 # Heap
 
@@ -418,6 +422,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 633. Sum of Square Numbers | Easy
 | 634. Find the Derangement of An Array | Medium | ★
 | 640. Solve the Equation | Medium
+| 645. Set Mismatch | Easy
 
 # Set
 
@@ -498,6 +503,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 616. Add Bold Tag in String | Medium | ★
 | 635. Design Log Storage System | Medium
 | 640. Solve the Equation | Medium
+| 647. Palindromic Substrings | Medium
 
 # Topological Sort
 
@@ -510,6 +516,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | Problem | Difficulty | Stars |
 |:-|:-|:-|
 | 421. Maximum XOR of Two Numbers in an Array | Medium | ★
+| 648. Replace Words | Hard
 
 # Two Pointer
 
