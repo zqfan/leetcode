@@ -12,3 +12,7 @@ public:
         }
     }
 };
+
+// 49 / 49 test cases passed.
+// Status: Accepted
+// Runtime: 36 ms

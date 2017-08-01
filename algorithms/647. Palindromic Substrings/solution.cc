@@ -1,22 +1,19 @@
 class Solution {
 public:
     int countSubstrings(string s) {
-        int n = s.size(), count = 0;
-        vector<vector<int>> dp(n, vector<int> (n));
-        for ( int end = 0; end < n; ++end ) {
-            dp[end][end] = 1;
-            ++count;
-            for ( int start = 0; start < end; ++start ) {
-                if ( s[start] == s[end] && (start+1 >= end-1 || dp[start+1][end-1])) {
-                    dp[start][end] = 1;
-                    ++count;
-                }
-            }
+        // @ hao-cai
+        int cnt = 0, n = s.size();
+        for ( int i = 0; i < n; ++i ) {
+            for ( int j = 0; i-j >= 0 && i+j < n && s[i-j] == s[i+j]; ++j )
+                ++cnt;
+            for ( int j = 0; i-j-1 >= 0 && i+j < n && s[i-j-1] == s[i+j]; ++j )
+                ++cnt;
         }
-        return count;
+        return cnt;
     }
 };
 
 // 130 / 130 test cases passed.
 // Status: Accepted
-// Runtime: 25 ms
+// Runtime: 6 ms
+// beats 67.19 %

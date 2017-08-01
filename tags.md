@@ -46,6 +46,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 624. Maximum Distance in Arrays | Easy
 | 628. Maximum Product of Three Numbers | Easy
 | 643. Maximum Average Subarray I | Easy
+| 644. Maximum Average Subarray II | Hard | ★
 
 # Backtracking
 
@@ -94,6 +95,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 441. Arranging Coins | Easy
 | 454. 4Sum II | Medium
 | 532. K-diff Pairs in an Array | Easy
+| 644. Maximum Average Subarray II | Hard | ★
 
 # Binary Search Tree
 
