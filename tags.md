@@ -154,6 +154,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 617. Merge Two Binary Trees | Easy
 | 623. Add One Row to Tree | Medium
 | 637. Average of Levels in Binary Tree | Easy
+| 652. Find Duplicate Subtrees | Medium | ★
 
 # Bit Manipulation
 
@@ -264,6 +265,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 639. Decode Ways II | Hard
 | 646. Maximum Length of Pair Chain | Medium
 | 647. Palindromic Substrings | Medium
+| 650. 2 Keys Keyboard | Medium
+| 651. 4 Keys Keyboard | Medium | ★
 
 # Graph
 
@@ -286,6 +289,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 455. Assign Cookies | Easy
 | 621. Task Scheduler | Medium
 | 630. Course Schedule III | Medium | ★★
+| 649. Dota2 Senate | Medium
 
 # Hash Table
 
@@ -327,6 +331,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 632. Smallest Range | Hard | ★★
 | 645. Set Mismatch | Easy
 | 648. Replace Words | Hard
+| 652. Find Duplicate Subtrees | Medium | ★
 
 # Heap
 
@@ -425,6 +430,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 634. Find the Derangement of An Array | Medium | ★
 | 640. Solve the Equation | Medium
 | 645. Set Mismatch | Easy
+| 650. 2 Keys Keyboard | Medium
+| 651. 4 Keys Keyboard | Medium | ★
 
 # Set
 
