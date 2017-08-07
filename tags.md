@@ -155,6 +155,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 623. Add One Row to Tree | Medium
 | 637. Average of Levels in Binary Tree | Easy
 | 652. Find Duplicate Subtrees | Medium | ★
+| 653. Two Sum IV - Input is a BST | Easy
+| 654. Maximum Binary Tree | Medium
+| 655. Print Binary Tree | Medium
 
 # Bit Manipulation
 
@@ -267,6 +270,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 647. Palindromic Substrings | Medium
 | 650. 2 Keys Keyboard | Medium
 | 651. 4 Keys Keyboard | Medium | ★
+| 656. Coin Path | Hard | ★
 
 # Graph
 
