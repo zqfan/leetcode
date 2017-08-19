@@ -96,6 +96,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 454. 4Sum II | Medium
 | 532. K-diff Pairs in an Array | Easy
 | 644. Maximum Average Subarray II | Hard | ★
+| 658. Find K Closest Elements | Medium
 
 # Binary Search Tree
 
@@ -294,6 +295,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 621. Task Scheduler | Medium
 | 630. Course Schedule III | Medium | ★★
 | 649. Dota2 Senate | Medium
+| 659. Split Array into Consecutive Subsequences | Mediume | ★
 
 # Hash Table
 
@@ -348,6 +350,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 373. Find K Pairs with Smallest Sums | Medium | ★
 | 378. Kth Smallest Element in a Sorted Matrix | Medium
 | 451. Sort Characters By Frequency | Medium
+| 659. Split Array into Consecutive Subsequences | Mediume | ★
 
 # Linked List
 
@@ -436,6 +439,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 645. Set Mismatch | Easy
 | 650. 2 Keys Keyboard | Medium
 | 651. 4 Keys Keyboard | Medium | ★
+| 660. Remove 9 | Hard | ★
 
 # Set
 
@@ -517,6 +521,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 635. Design Log Storage System | Medium
 | 640. Solve the Equation | Medium
 | 647. Palindromic Substrings | Medium
+| 657. Judge Route Circle | Easy
 
 # Topological Sort
 
