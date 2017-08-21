@@ -47,6 +47,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 628. Maximum Product of Three Numbers | Easy
 | 643. Maximum Average Subarray I | Easy
 | 644. Maximum Average Subarray II | Hard | ★
+| 661. Image Smoother | Easy
 
 # Backtracking
 
@@ -159,6 +160,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 653. Two Sum IV - Input is a BST | Easy
 | 654. Maximum Binary Tree | Medium
 | 655. Print Binary Tree | Medium
+| 662. Maximum Width of Binary Tree | Medium
+| 663. Equal Tree Partition | Medium
 
 # Bit Manipulation
 
@@ -209,6 +212,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 547. Friend Circles | Medium
 | 582. Kill Process | Medium
 | 638. Shopping Offers | Hard | ★
+| 664. Strange Printer | Hard | ★
 
 # Design
 
@@ -272,6 +276,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 650. 2 Keys Keyboard | Medium
 | 651. 4 Keys Keyboard | Medium | ★
 | 656. Coin Path | Hard | ★
+| 664. Strange Printer | Hard | ★
 
 # Graph
 
