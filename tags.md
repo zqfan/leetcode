@@ -48,6 +48,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 643. Maximum Average Subarray I | Easy
 | 644. Maximum Average Subarray II | Hard | ★
 | 661. Image Smoother | Easy
+| 665. Non-decreasing Array | Easy
+| 667. Beautiful Arrangement II | Medium
 
 # Backtracking
 
@@ -98,6 +100,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 532. K-diff Pairs in an Array | Easy
 | 644. Maximum Average Subarray II | Hard | ★
 | 658. Find K Closest Elements | Medium
+| 668. Kth Smallest Number in Multiplication Table | Hard | ★
 
 # Binary Search Tree
 
@@ -162,6 +165,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 655. Print Binary Tree | Medium
 | 662. Maximum Width of Binary Tree | Medium
 | 663. Equal Tree Partition | Medium
+| 666. Path Sum IV | Medium
 
 # Bit Manipulation
 
