@@ -166,6 +166,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 662. Maximum Width of Binary Tree | Medium
 | 663. Equal Tree Partition | Medium
 | 666. Path Sum IV | Medium
+| 669. Trim a Binary Search Tree | Easy
+| 671. Second Minimum Node In a Binary Tree | Easy
 
 # Bit Manipulation
 
@@ -449,6 +451,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 650. 2 Keys Keyboard | Medium
 | 651. 4 Keys Keyboard | Medium | ★
 | 660. Remove 9 | Hard | ★
+| 672. Bulb Switcher II | Medium
 
 # Set
 
@@ -531,6 +534,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 640. Solve the Equation | Medium
 | 647. Palindromic Substrings | Medium
 | 657. Judge Route Circle | Easy
+| 670. Maximum Swap | Medium
 
 # Topological Sort
 
