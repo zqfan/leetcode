@@ -50,6 +50,9 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 661. Image Smoother | Easy
 | 665. Non-decreasing Array | Easy
 | 667. Beautiful Arrangement II | Medium
+| 713. Subarray Product Less Than K | Medium
+| 714. Best Time to Buy and Sell Stock with Transaction Fee | Medium | ★
+| 715. Range Module | Hard | ★
 
 # Backtracking
 
@@ -283,6 +286,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 651. 4 Keys Keyboard | Medium | ★
 | 656. Coin Path | Hard | ★
 | 664. Strange Printer | Hard | ★
+| 712. Minimum ASCII Delete Sum for Two Strings | Medium
+| 714. Best Time to Buy and Sell Stock with Transaction Fee | Medium | ★
 
 # Graph
 
