@@ -53,6 +53,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 713. Subarray Product Less Than K | Medium
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | Medium | ★
 | 715. Range Module | Hard | ★
+| 1013. Pairs of Songs With Total Durations Divisible by 60 | Easy | ★
 
 # Backtracking
 
@@ -104,6 +105,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 644. Maximum Average Subarray II | Hard | ★
 | 658. Find K Closest Elements | Medium
 | 668. Kth Smallest Number in Multiplication Table | Hard | ★
+| 1014. Capacity To Ship Packages Within D Days | Medium | ★
 
 # Binary Search Tree
 
@@ -457,6 +459,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 651. 4 Keys Keyboard | Medium | ★
 | 660. Remove 9 | Hard | ★
 | 672. Bulb Switcher II | Medium
+| 1012. Complement of Base 10 Integer | Easy
 
 # Set
 
