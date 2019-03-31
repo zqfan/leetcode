@@ -54,6 +54,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | Medium | ★
 | 715. Range Module | Hard | ★
 | 1013. Pairs of Songs With Total Durations Divisible by 60 | Easy | ★
+| 1013. Partition Array Into Three Parts With Equal Sum | Easy |
+| 1018. Binary Prefix Divisible By 5 | Easy |
 
 # Backtracking
 
@@ -224,6 +226,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 582. Kill Process | Medium
 | 638. Shopping Offers | Hard | ★
 | 664. Strange Printer | Hard | ★
+| 1020. Number of Enclaves | Medium |
 
 # Design
 
