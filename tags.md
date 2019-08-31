@@ -56,6 +56,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 1013. Pairs of Songs With Total Durations Divisible by 60 | Easy | ★
 | 1013. Partition Array Into Three Parts With Equal Sum | Easy |
 | 1018. Binary Prefix Divisible By 5 | Easy |
+| 1170. Compare Strings by Frequency of the Smallest Character | Easy |
 
 # Backtracking
 
@@ -395,6 +396,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 328. Odd Even Linked List | Medium
 | 382. Linked List Random Node | Medium
 | 445. Add Two Numbers II | Medium | ★
+| 1171. Remove Zero Sum Consecutive Nodes from Linked List | Medium | ★
 
 # Math
 
