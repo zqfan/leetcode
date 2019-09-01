@@ -465,6 +465,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 660. Remove 9 | Hard | ★
 | 672. Bulb Switcher II | Medium
 | 1012. Complement of Base 10 Integer | Easy
+| 1175. Prime Arrangements | Easy
 
 # Set
 
