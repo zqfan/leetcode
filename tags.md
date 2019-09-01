@@ -57,6 +57,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 1013. Partition Array Into Three Parts With Equal Sum | Easy |
 | 1018. Binary Prefix Divisible By 5 | Easy |
 | 1170. Compare Strings by Frequency of the Smallest Character | Easy |
+| 1176. Diet Plan Performance | Easy
 
 # Backtracking
 
@@ -483,6 +484,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 |:-|:-|:-|
 | 424. Longest Repeating Character Replacement | Medium | ★
 | 567. Permutation in String | Medium
+| 1176. Diet Plan Performance | Easy
 
 # Stack
 
