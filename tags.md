@@ -205,6 +205,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 461. Hamming Distance | Easy |
 | 476. Number Complement | Easy |
 | 477. Total Hamming Distance | Medium
+| 1178. Number of Valid Words for Each Puzzle | Hard | ★
 
 # Bucket Sort
 
@@ -362,6 +363,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 645. Set Mismatch | Easy
 | 648. Replace Words | Hard
 | 652. Find Duplicate Subtrees | Medium | ★
+| 1178. Number of Valid Words for Each Puzzle | Hard | ★
 
 # Heap
 
