@@ -58,6 +58,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 1018. Binary Prefix Divisible By 5 | Easy |
 | 1170. Compare Strings by Frequency of the Smallest Character | Easy |
 | 1176. Diet Plan Performance | Easy
+| 1177. Can Make Palindrome from Substring | Medium | ★
 
 # Backtracking
 
@@ -551,6 +552,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 647. Palindromic Substrings | Medium
 | 657. Judge Route Circle | Easy
 | 670. Maximum Swap | Medium
+| 1177. Can Make Palindrome from Substring | Medium | ★
 
 # Topological Sort
 
