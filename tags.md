@@ -298,6 +298,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 664. Strange Printer | Hard | ★
 | 712. Minimum ASCII Delete Sum for Two Strings | Medium
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | Medium | ★
+| 1186. Maximum Subarray Sum with One Deletion | Medium | ★
 
 # Graph
 
