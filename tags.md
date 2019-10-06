@@ -366,6 +366,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 648. Replace Words | Hard
 | 652. Find Duplicate Subtrees | Medium | ★
 | 1178. Number of Valid Words for Each Puzzle | Hard | ★
+| 1189. Maximum Number of Balloons | Easy|
 
 # Heap
 
