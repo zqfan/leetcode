@@ -510,6 +510,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 496. Next Greater Element I | Easy |
 | 503. Next Greater Element II | Medium | ★
 | 636. Exclusive Time of Functions | Medium
+| 1190. Reverse Substrings Between Each Pair of Parentheses | Medium | ★
 
 # String
 
