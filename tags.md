@@ -322,7 +322,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 621. Task Scheduler | Medium
 | 630. Course Schedule III | Medium | ★★
 | 649. Dota2 Senate | Medium
-| 659. Split Array into Consecutive Subsequences | Mediume | ★
+| 659. Split Array into Consecutive Subsequences | Medium | ★
+| 1247. Minimum Swaps to Make Strings Equal | Medium
 
 # Hash Table
 
