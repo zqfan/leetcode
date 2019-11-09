@@ -602,6 +602,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 524. Longest Word in Dictionary through Deleting | Medium
 | 611. Valid Triangle Number | Medium
 | 632. Smallest Range | Hard | ★★
+| 1248. Count Number of Nice Subarrays | Medium | ★
 
 # Union Find
 
