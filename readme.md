@@ -1,20 +1,9 @@
 leetcode
 ========
-Solutions of leetcode.com
+Solutions of leetcode.com, for practice.
 
 * If a problem has multiple solutions, the worst solution will have the biggest postfix number.
-
-GOOD PROBLEMS
--------------
-
-* 189. Rotate Array
-* 347. Top K Frequent Elements
-* 363. Max Sum of Rectangle No Larger Than K
-
-TODO
-----
-
-* resolve all problems, current 200/417
+* Some solutions are not original, I learned a lot from masters, their leetcode ID will be mentioned in comment.
 
 LICENSE
 -------
