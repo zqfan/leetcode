@@ -60,6 +60,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 1176. Diet Plan Performance | Easy
 | 1177. Can Make Palindrome from Substring | Medium | ★
 | 1184. Distance Between Bus Stops | Easy
+| 1394. Find Lucky Integer in an Array | Easy
 
 # Backtracking
 
