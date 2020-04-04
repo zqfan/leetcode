@@ -300,6 +300,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 712. Minimum ASCII Delete Sum for Two Strings | Medium
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | Medium | ★
 | 1186. Maximum Subarray Sum with One Deletion | Medium | ★
+| 1395. Count Number of Teams | Medium | ★
 
 # Graph
 
