@@ -513,6 +513,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 503. Next Greater Element II | Medium | ★
 | 636. Exclusive Time of Functions | Medium
 | 1190. Reverse Substrings Between Each Pair of Parentheses | Medium | ★
+| 1249. Minimum Remove to Make Valid Parentheses | Medium |
 
 # String
 
