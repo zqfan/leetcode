@@ -371,6 +371,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 1178. Number of Valid Words for Each Puzzle | Hard | ★
 | 1189. Maximum Number of Balloons | Easy|
 | 1218. Longest Arithmetic Subsequence of Given Difference | Medium
+| 1396. Design Underground System | Medium
 
 # Heap
 
