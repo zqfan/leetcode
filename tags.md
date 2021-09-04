@@ -253,6 +253,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 215. Kth Largest Element in an Array | Medium | ★
 | 240. Search a 2D Matrix II | Medium | ★
 | 241. Different Ways to Add Parentheses | Medium
+| 1985. Find the Kth Largest Integer in the Array | Medium
 
 # Dynamic Programming
 
