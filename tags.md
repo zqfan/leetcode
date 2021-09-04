@@ -82,6 +82,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 491. Increasing Subsequences | Medium
 | 526. Beautiful Arrangement | Medium | ★
 | 553. Optimal Division | Medium | ★
+| 1986. Minimum Number of Work Sessions to Finish the Tasks | Medium | ★
 
 # Binary Search
 
