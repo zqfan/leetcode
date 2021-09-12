@@ -62,6 +62,8 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 1184. Distance Between Bus Stops | Easy
 | 1394. Find Lucky Integer in an Array | Easy
 | 1984. Minimum Difference Between Highest and Lowest of K Scores | Easy
+| 1991. Find the Middle Index in Array | Easy
+| 1992. Find All Groups of Farmland | Easy
 
 # Backtracking
 
@@ -244,6 +246,7 @@ leetcode somtimes doesn't tag problems, or doesn't tag properly. so here is anot
 | 604. Design Compressed String Iterator | Easy
 | 631. Design Excel Sum Formula | Hard
 | 635. Design Log Storage System | Medium
+| 1993. Operations on Tree | Medium
 
 # Divide and Conquer
 
